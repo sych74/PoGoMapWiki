@@ -1,6 +1,6 @@
 ## Common Errors
 
-**Q**: My computer says Python is not recognized!
+**Python is not recognized**
 
 **A**: First, restart to make sure it wasn't because some changes weren't applied and try again.
 if that doesn't fix it, open an explorer window and find your Python installation, it should either be in    C:\Python27 or C:\Users\YOURUSERNAME\AppData\Programs\Python\Python27 (The python directories could be named differently depending on which version you installed, so don't just copy and paste!)
