@@ -1,4 +1,4 @@
-Welcome to the PokeMap wiki!
+# Welcome to the PokeMap wiki!
 
 Discord : https://discord.gg/Kzp4yky
 
