@@ -1,5 +1,3 @@
-
-# Usage
 `python example.py -a authService -u myUsername -p myPassword -l "Boulder, CO" -st 5`
 
 | Flag                       | Description                                            | Required |
