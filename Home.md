@@ -4,7 +4,5 @@ Pokemon Go Map is aiming to bring a live visualization map of nearby pokemon, po
 
 This wiki is still to be populated.
 
-Discord : https://discord.gg/Kzp4yky
-
 
 
