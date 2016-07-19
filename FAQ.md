@@ -1,4 +1,3 @@
-# FAQ
 Q: Can I sign in with Google?<br/>
 A: Yes you can! Pass the flag `-a google` to use Google authentication
 
