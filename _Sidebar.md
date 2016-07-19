@@ -1,4 +1,4 @@
-**Wiki contents**
+**Wiki contents**<br/>
 [Home](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki)<br/>
 
 [Installation and requirements](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Installation-and-requirements)<br/>
