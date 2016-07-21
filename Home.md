@@ -52,7 +52,7 @@ pip install -r requirements.txt
 To start the server, run the following command:
 
 ```
-python example.py -a ptc -u [USERNAME] -p [PASSWORD] -l "[LOCATION]" -st 10
+python runserver.py -a ptc -u [USERNAME] -p [PASSWORD] -l "[LOCATION]" -st 10
 ```
 
 Replaing [USERNAME] and [PASSWORD] with the Pokemon Club credentials you created previously, and [LOCATION] with any location, for example `Washington, D.C` or latitude and longitude coordinates, such as `38.9072 77.0369`.
