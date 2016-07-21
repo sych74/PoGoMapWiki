@@ -1,3 +1,5 @@
+If you happen to have 2-step verification enabled for your Google account you will need to supply an [app password](https://support.google.com/accounts/answer/185833?hl=en) for your password instead of your normal login password.
+
 Q: Can I sign in with Google?<br/>
 A: Yes you can! Pass the flag `-a google` to use Google authentication
 
