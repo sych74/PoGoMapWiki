@@ -21,6 +21,7 @@ Download Python [here](https://www.python.org/ftp/python/2.7.12/python-2.7.12.am
 ## Credentials and Downloading
 
 Create a Pokemon Club account [on their official website] to be used by the program to search for Pokemon. This generally shouldn't be the same as your main Trainer account you personally use. As of 7/21/2016 this page is unavailable most of the time, refresh the page every 5-10 minutes and it should allow signups eventually.
+You can also use a Google account. For both services, you can login without ever connecting to the actual game. 
 
 Then, download one of the following branches below:
 
