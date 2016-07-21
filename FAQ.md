@@ -4,8 +4,11 @@ A: Yes you can! Pass the flag `-a google` to use Google authentication
 Q: ... expected one argument
 A: The -dp, -dg -dl, -i, -o and -ar parameters are no longer needed. Remove them from your query
 
+Q: Port forwarding Tutorial?
+A: https://github.com/Langoor2/PokemonGo-Map-FAQ/blob/master/FAQ/Portforwarding.md
+
 Q: `python is not recognized as an internal or external command`<br/>
-A: Python is not installed on your system, or the environment variables are not set correctly. 
+A: https://github.com/Langoor2/PokemonGo-Map-FAQ/blob/master/FAQ/Enviroment_Variables_not_correct.md
 
 Q: `pip or python is not recognized as an internal or external command`<br/>
 pip needs to be installed to retrieve all the dependencies, [see how](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Installation-and-requirements)
