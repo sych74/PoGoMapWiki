@@ -1,6 +1,8 @@
 In order to run the project, you will need Python, pip and the project dependencies.
 Version 2.7 is what we usually test against. You can use 3.x but no support will be given. 
 
+https://github.com/Langoor2/PokemonGo-Map-FAQ/blob/master/FAQ/Enviroment_Variables_not_correct.md
+
 ### Ubuntu or Debian
 
 You can install Python and Pip on Ubuntu by running the following command:
