@@ -1,5 +1,3 @@
-This adds minimal Heroku support. Documentation should go into the wiki once this is in master.
-
 ### Documentation
 
 - Create an app on Heroku.
