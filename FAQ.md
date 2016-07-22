@@ -18,3 +18,5 @@ pip needs to be installed to retrieve all the dependencies, [see how](https://gi
 Q: `Exception, e <- Invalid syntax.`<br/>
 A: This error is caused by Python 3. The project officially supports 2.7
 
+Q: `error: command 'gcc' failed with exit status 1` or `[...]failed with error code 1 in /tmp/pip-build-k3oWzv/pycryptodomex/`  
+A: Your OS is missing the `gcc` compiler library. Run `apt-get install build-essentials`
