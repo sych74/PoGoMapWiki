@@ -22,4 +22,5 @@ Q: `error: command 'gcc' failed with exit status 1` or `[...]failed with error c
 A: Your OS is missing the `gcc` compiler library. Run `apt-get install build-essentials`
 
 Q: ["It's acting like the location line is missing."](http://imgur.com/a/tM3BN)
+
 A: -1, never forget
