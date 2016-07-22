@@ -22,7 +22,7 @@ Now you're gonna see a window like this:
 
 The highlighted address is the webadress for your map, so if you enter the link you will see something like this:
 <p>
-<img src="https://cdn.discordapp.com/attachments/204338767920758785/206017476662788096/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/204338767920758785/206028672652673025/unknown.png">
 </p>
 It will obviously differ depending on your location and the theme you are currently using.
 
