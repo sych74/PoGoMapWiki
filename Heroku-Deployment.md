@@ -16,6 +16,7 @@ To manually deploy this app to Heroku, perform the following steps:
 
     # Set the required configuration parameters for the app, replace with your
     # actual values.
+    heroku config:set AUTH_SERVICE=insertyourauthservicehere
     heroku config:set USERNAME=insertyourusernamehere
     heroku config:set PASSWORD=insertyourpasswordhere
     heroku config:set LOCATION=insertyourlocationhere
