@@ -1,7 +1,7 @@
 `usage: runserver.py [-h] [-a AUTH_SERVICE] -u USERNAME [-p PASSWORD] -l`
                     `LOCATION -st STEP_LIMIT [-i IGNORE | -o ONLY]`
                     `[-ar AUTO_REFRESH] [-ol Display only lured Pokestops] [-H HOST] [-P PORT]`
-                    `[-L LOCALE] [-c] [-d] [-m] [-k GMAPS_KEY]`
+                    `[-L LOCALE] [-c] [-d] [-m] [-k GMAPS_KEY] [-t THREADS]`
 
 -h, -        shows help message  
 -a AUTH_SERVICE  - Auth Service  
@@ -19,4 +19,6 @@
   -m             - Mock mode. Starts the web server but not the background thread.  
   -ns            - No-Server Mode. Starts the searcher but not the Webserver.  
   -k GMAPS_KEY   - Google Maps Javascript API Key  
-  -C             - Enable CORS on web server  
+  -C             - Enable CORS on web server
+  
+-t             - Number of threads
