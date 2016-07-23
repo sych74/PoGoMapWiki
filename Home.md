@@ -58,9 +58,14 @@ You will need to generate your own Google Maps API key and place it in your prog
 To start the server, run the following command:
 
 ```
-python example.py -a ptc -u [USERNAME] -p [PASSWORD] -l "[LOCATION]" -st 10
+python runserver.py -u [USERNAME] -p [PASSWORD] -st 10 -k [Google Maps API key] -l "[LOCATION]"
 ```
-Note: develop runs off runserver.py instead of example.py, but same options work
+
+or for Google account:
+
+```
+python runserver.py -a google -u [USERNAME] -p [PASSWORD] -st 10 -k [Google Maps API key] -l "[LOCATION]" 
+```
 
 Replacing [USERNAME] and [PASSWORD] with the Pokemon Club credentials you created previously, and [LOCATION] with any location, for example `Washington, D.C` or latitude and longitude coordinates, such as `38.9072 77.0369`.
 
