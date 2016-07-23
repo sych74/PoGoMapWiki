@@ -3,7 +3,7 @@
 Pokemon Go Map is aiming to bring a live visualization map of nearby Pokémon, Pokéstops and gyms in a form of a web-app as well as native phone applications.
 
 Video Setup: 
-[Video Walkthrough](https://www.youtube.com/watch?v=nplNFl3SpOI)
+[Video Walkthrough](https://www.youtube.com/watch?v=RJKAulPCkRI)
 ## Prerequisites
 
 Installation will require Python 2.7 and Pip. If you already have these you can skip to [installation](#Install_Dependencies). Python 3 is not supported at all.
