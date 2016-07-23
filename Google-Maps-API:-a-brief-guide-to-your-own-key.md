@@ -21,7 +21,7 @@ Step 4] An pop-up box will appear with you new API-Key! save this key and you ca
 </p>
 Step 5] Navigate to your pokemon map directory, and inside the config folder you will find credentials.json.
 <p>
-<img src="http://imgur.com/sv4wNtd">
+<img src="https://i.imgur.com/sv4wNtd.png">
 </p>
 Step 6] add your API key in this file, save it, and re-run the server! it should be working now!
 <p>
