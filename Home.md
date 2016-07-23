@@ -49,6 +49,9 @@ Then enter the following:
 ```
 pip install -r requirements.txt
 ```
+## Google Maps API key
+
+You will need to generate your own Google Maps API key and place it in your program directory to use this program. Here's a [wiki entry](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Google-Maps-API:-a-brief-guide-to-your-own-key) on how to do this part.
 
 ## Running
 
