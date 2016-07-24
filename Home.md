@@ -4,6 +4,7 @@ Pokemon Go Map is aiming to bring a live visualization map of nearby Pokémon, P
 
 Video Setup: 
 [Video Walkthrough](https://www.youtube.com/watch?v=RJKAulPCkRI)
+[German Amazon EC2 Tutorial](https://www.youtube.com/watch?v=FxcVGrszl3I)
 ## Prerequisites
 
 Installation will require Python 2.7 and Pip. If you already have these you can skip to [installation](#Install_Dependencies). Python 3 is not supported at all.
