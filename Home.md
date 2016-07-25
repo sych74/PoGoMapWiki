@@ -7,7 +7,7 @@ Video Setup:
 [German Amazon EC2 Tutorial](https://www.youtube.com/watch?v=FxcVGrszl3I)
 ## Prerequisites
 
-Installation will require Python 2.7 and Pip. If you already have these you can skip to [installation](#Install_Dependencies). Python 3 is not supported at all.
+Installation will require Python 2.7 and Pip. If you already have these you can skip to [installation](#install-dependencies). Python 3 is not supported at all.
 
 ### Ubuntu or Debian
 
