@@ -20,7 +20,7 @@
 9. Click install. Administrator privileges required. 
 10. Congratulations you've installed MariaDB and it's all downhill from here. 
 
-## Setting up your database & editing Utils.py
+## Setting up your database 
 1. Go to your windows start menu and locate MariaDB.
 2. Open "MySQL Client"
 3. If you created a password in step 5a above enter it now and hit enter. If you didn't create a password simply hit enter.
@@ -36,7 +36,7 @@ You simply missed the ";" in the CREATE DATABASE command. Essentially you didn't
 If you're trying to start a fresh database you'll need to execute `DROP DATABASE pokemongomapdb`, and then run `CREATE DATABASE pokemongomapdb`. If you want to keep the pokemongomapdb but start a new one, change the name. 
 6. Congratulations, your database is now setup and ready to be used. 
 
-## III. Setting up the Config.ini file
+## III. Setting up the Config.ini file & Editing utils.py
 ### Config.ini
 1. Open file explorer to where you've extracted your develop branch of PokemonGo-Map
 2. Navigate to the "config" folder.
