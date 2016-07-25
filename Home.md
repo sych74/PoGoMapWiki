@@ -17,6 +17,14 @@ You can install Python and Pip on Ubuntu by running the following command:
 sudo apt-get install python python-pip
 ```
 
+### Red Hat or CentOs or Fedora
+
+You can install Python and Pip on Red Hat by running the following command:
+
+```
+yum install python python-pip
+```
+
 ### Windows
 
 Download Python [here](https://www.python.org/ftp/python/2.7.12/python-2.7.12.amd64.msi) and install. Then download [pip](https://bootstrap.pypa.io/get-pip.py) (right click that link and choose "Save Link As"), and double click the file you downloaded, assuming you installed Python correctly.
