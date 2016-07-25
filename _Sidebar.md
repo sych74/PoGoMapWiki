@@ -15,4 +15,6 @@
 
 [How to make your map available externally: NGROK Method](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/How-to-make-your-map-available-externally:-NGROK-Method)  
 
+[How to start using a MySQL Database](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/How-to-start-using-a-MySQL-Server)
+
 [Environment Variables Fix](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Environment-Variables-fix)
