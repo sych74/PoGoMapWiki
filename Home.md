@@ -11,18 +11,18 @@ Installation will require Python 2.7 and Pip. If you already have these you can 
 
 ### Ubuntu or Debian
 
-You can install Python and Pip on Ubuntu by running the following command:
+You can install the required packages on Ubuntu by running the following command:
 
 ```
-sudo apt-get install python python-pip
+sudo apt-get install python python-pip nodejs
 ```
 
 ### Red Hat or CentOs or Fedora
 
-You can install Python and Pip on Red Hat by running the following command:
+You can install required packages on Red Hat by running the following command:
 
 ```
-yum install python python-pip
+yum install python python-pip nodejs
 ```
 
 ### OS X
@@ -40,6 +40,8 @@ $ sudo -H easy_install --upgrade six
 $ sudo -H easy_install --upgrade setuptools
 $ sudo -H pip install requirements.txt
 ```
+
+To install node and npm, download and install the installer from https://nodejs.org/en/download/.
 
 Result:
 
@@ -91,6 +93,8 @@ optional arguments:
 
 Download Python [here](https://www.python.org/ftp/python/2.7.12/python-2.7.12.amd64.msi) and install. Then download [pip](https://bootstrap.pypa.io/get-pip.py) (right click that link and choose "Save Link As"), and double click the file you downloaded, assuming you installed Python correctly.
 
+Download NodeJS [here](https://nodejs.org/en/download/) and install.
+
 There is a one-click setup for Windows. After you've installed Python, go into the `Easy Setup` folder and run `setup.bat`. This should install `pip` and the dependencies for you, and put your Google API key into the right place.
 
 ## Credentials and Downloading
@@ -121,6 +125,7 @@ Then enter the following:
 
 ```
 pip install -r requirements.txt
+npm install
 ```
 ## Google Maps API key
 
