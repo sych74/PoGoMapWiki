@@ -2,6 +2,7 @@
 [Home](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki)<br/>
 
 [Windows Installation and requirements](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Windows-Installation-and-requirements)<br/>
+
 [Macintosh Installation and requirements](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Macintosh-Installation-and-requirements)<br/>
 
 
