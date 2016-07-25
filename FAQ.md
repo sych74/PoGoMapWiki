@@ -20,8 +20,8 @@ The -dp, -dg -dl, -i, -o and -ar parameters are no longer needed. Remove them fr
 | `python is not recognized as an internal or external command`  | [Python has not been added to the environment](https://github.com/Langoor2/PokemonGo-Map-FAQ/blob/master/FAQ/Enviroment_Variables_not_correct.md)  |
 | `pip or python is not recognized as an internal or external command`  | [pip needs to be installed to retrieve all the dependencies](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Installation-and-requirements)  |
 | `Exception, e <- Invalid syntax.`  | This error is caused by Python 3. The project requires python 2.7  |
-| `error: command 'gcc' failed with exit status 1`  | Your OS is missing the `gcc` compiler library. For Debian, run `apt-get install build-essentials`, For Red Had, run `yum groupinstall 'Development Tools'` |
-| `[...]failed with error code 1 in /tmp/pip-build-k3oWzv/pycryptodomex/`   | Your OS is missing the `gcc` compiler library. For Debian, run `apt-get install build-essentials` For Red Had, run `yum groupinstall 'Development Tools'`  |
+| `error: command 'gcc' failed with exit status 1`  | Your OS is missing the `gcc` compiler library. For Debian, run `apt-get install build-essentials`, For Red Hat, run `yum groupinstall 'Development Tools'` |
+| `[...]failed with error code 1 in /tmp/pip-build-k3oWzv/pycryptodomex/`   | Your OS is missing the `gcc` compiler library. For Debian, run `apt-get install build-essentials` For Red Hat, run `yum groupinstall 'Development Tools'`  |
 |   |   |
 |   |   |
 
