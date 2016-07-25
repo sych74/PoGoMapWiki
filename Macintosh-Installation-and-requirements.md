@@ -40,7 +40,7 @@ Now we have all PokemonGo-Map files inside our Documents folder. Git clone autom
 
 ### Step 4: Get your own Google Maps API Key
 
-Go to [this page](https://console.developers.google.com/flows/enableapi?apiid=maps_backend,geocoding_backend,directions_backend,distance_matrix_backend,elevation_backend,places_backend&keyType=CLIENT_SIDE&reusekey=true) to get your own Google Maps API Key. If you do not get your own API Key, you'll very likely run into an error telling you that you reached the daily request limit.
+Go to [this page](https://console.developers.google.com/flows/enableapi?apiid=maps_backend,geocoding_backend,directions_backend,distance_matrix_backend,elevation_backend,places_backend&keyType=CLIENT_SIDE&reusekey=true) to get your own Google Maps API Key. If you do not get your own API Key, you'll very likely run into an error telling you that you reached the daily request limit. **Additionally, you do not need to just get the key but you need to ensure the Google Maps JavaScript API is enabled for your account.** This is done from the homepage of the Google developer tools. Just getting the key alone does not automatically enable the JavaScript API that is necessary for the application.
 
 If you got your own API Key, open the *credentials.json* file inside the *PokemonGo-Map* folder. You can edit that file with Mac's built in text editor. Now replace the API Key in line 6 with the one you got from that Google website.
 
@@ -63,13 +63,14 @@ A full list of parameters you can use with the map and what they mean can be fou
 -p: Your Password  
 -l: The location you want to scan for Pokémon. You can try something like `La tour Eiffel, Paris`, your street or exact coordinates in this format: `47.6062100 -122.3320700`  
 -st: The amount of steps to take (5 steps is approximately a 1.2km radius according to [this list](https://github.com/AHAAAAAAA/PokemonGo-Map#usage))  
--ar: Auto refresh interval (in seconds), so you don't have to refresh the map all the time  
 
 > **Note**: It's recommended that you create a dummy account to use this Map with in order to prevent your real account from getting (soft)banned.
 
-The final command should look like this:
+The final command should look like this (for master branch):
+`python example.py -a ptc -u johndoe -p ilovemama -l "400 Broad St, Seattle, WA 98109, USA" -st 5`
 
-`python example.py -a ptc -u johndoe -p ilovemama -l "400 Broad St, Seattle, WA 98109, USA" -st 5 -ar 10`
+If you are working in the develop branch, then use runserver.py instead of example.py
+
 
 Hit enter and view your map in all it's glory at http://127.0.0.1:5000/. Done!
 
