@@ -3,10 +3,10 @@ If you happen to have 2-step verification enabled for your Google account you wi
 Q: Can I sign in with Google?<br/>
 A: Yes you can! Pass the flag `-a google` to use Google authentication
 
-Q: ... expected one argument
+Q: ... expected one argument.<br>
 A: The -dp, -dg -dl, -i, -o and -ar parameters are no longer needed. Remove them from your query
 
-Q: Port forwarding Tutorial?
+Q: Port forwarding Tutorial?<br>
 A: https://github.com/Langoor2/PokemonGo-Map-FAQ/blob/master/FAQ/Portforwarding.md
 
 Q: `python is not recognized as an internal or external command`<br/>
@@ -21,6 +21,5 @@ A: This error is caused by Python 3. The project officially supports 2.7
 Q: `error: command 'gcc' failed with exit status 1` or `[...]failed with error code 1 in /tmp/pip-build-k3oWzv/pycryptodomex/`  
 A: Your OS is missing the `gcc` compiler library. Run `apt-get install build-essentials`
 
-Q: ["It's acting like the location line is missing."](http://imgur.com/a/tM3BN)
-
+Q: ["It's acting like the location line is missing."](http://imgur.com/a/tM3BN)<br>
 A: -1, never forget
