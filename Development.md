@@ -35,7 +35,7 @@ Simply type
 
 `grunt`
 
-on the command-line. This runs a default grunt "task" that performs a number of subtasks, like transforming JS with Babel, minifying, linting, and copying (see gruntfile.js)
+on the command-line. This runs a default grunt "task" that performs a number of subtasks, like transforming JS with Babel, minifying, linting, and copying (see [Gruntfile.js](https://github.com/AHAAAAAAA/PokemonGo-Map/blob/develop/Gruntfile.js))
 
 ### grunt-watch
 
