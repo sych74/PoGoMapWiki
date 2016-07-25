@@ -15,7 +15,7 @@ Step 3] Now enter an fancy name, and click create.
 <p>
 <img src="https://i.imgur.com/Oc10qJ9.png">
 </p>
-Step 4] An pop-up box will appear with you new API-Key! save this key and you can now close your browser.
+Step 4] Get your key and enable the Javascript API! An pop-up box will appear with you new API-Key! Save this Key ID. It is required for later in the Heroku configuration. One last step in the Google API dialogue before you leave, you need to enable the Google Maps JavaScript API to make available your newly generated key to outside services. This is accomplished by searching for Google Maps Javascript API in the search dialogue on the dev network homepage. Then enable it. This will prevent browser console errors in the future that say "ApiNotActivatedMapError." Now close the Google dev window.
 <p>
 <img src="https://i.imgur.com/D1K26f8.png">
 </p>
@@ -23,7 +23,7 @@ Step 5] Navigate to your pokemon map directory, and inside the config folder you
 <p>
 <img src="https://i.imgur.com/sv4wNtd.png">
 </p>
-Step 6] add your API key in this file, save it, and re-run the server! it should be working now!
+Step 6] add your previously created Google API key in this file, save it, and re-run the server! it should be working now! If you see an error, make sure you actually enabled the Javascript API in Step 4.
 <p>
 <img src="https://i.imgur.com/10uqA47.png">
 </p>
