@@ -1,7 +1,7 @@
 **Wiki contents**<br/>
 [Home](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki)<br/>
 
-[Installation and requirements](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Installation-and-requirements)<br/>
+[Windows Installation and requirements](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Installation-and-requirements)<br/>
 
 [Heroku Deployment](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Heroku-Deployment)<br/>
 
