@@ -42,7 +42,7 @@ Now we have all PokemonGo-Map files inside our Documents folder. Git clone autom
 
 Go to [this page](https://console.developers.google.com/flows/enableapi?apiid=maps_backend,geocoding_backend,directions_backend,distance_matrix_backend,elevation_backend,places_backend&keyType=CLIENT_SIDE&reusekey=true) to get your own Google Maps API Key. If you do not get your own API Key, you'll very likely run into an error telling you that you reached the daily request limit. **Additionally, you do not need to just get the key but you need to ensure the Google Maps JavaScript API is enabled for your account.** This is done from the homepage of the Google developer tools. Just getting the key alone does not automatically enable the JavaScript API that is necessary for the application.
 
-If you got your own API Key, open the *credentials.json* file inside the *PokemonGo-Map* folder. You can edit that file with Mac's built in text editor. Now replace the API Key in line 6 with the one you got from that Google website.
+If you got your own API Key, open the *credentials.json* file inside the *PokemonGo-Map/config* folder. You can edit that file with Mac's built in text editor. Now replace the API Key in line 6 with the one you got from that Google website.
 
 ### Step 6: Setup PokemonGo-Map
 
