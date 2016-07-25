@@ -44,7 +44,7 @@ $ sudo -H pip install requirements.txt
 Result:
 
 ```
-python ./runserver.py --help
+$ python ./runserver.py --help
 usage: runserver.py [-h] [-se] [-a AUTH_SERVICE] [-u USERNAME] [-p PASSWORD]
                     [-l LOCATION] [-st STEP_LIMIT] [-sd SCAN_DELAY] [-dc]
                     [-H HOST] [-P PORT] [-L LOCALE] [-c] [-d] [-m] [-ns]
