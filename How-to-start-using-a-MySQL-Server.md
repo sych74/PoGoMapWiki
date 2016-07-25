@@ -20,7 +20,7 @@
 9. Click install. Administrator privileges required. 
 10. Congratulations you've installed MariaDB and it's all downhill from here. 
 
-## Setting up your database 
+## III. Setting up your database 
 1. Go to your windows start menu and locate MariaDB.
 2. Open "MySQL Client"
 3. If you created a password in step 5a above enter it now and hit enter. If you didn't create a password simply hit enter.
@@ -36,7 +36,7 @@ You simply missed the ";" in the CREATE DATABASE command. Essentially you didn't
 If you're trying to start a fresh database you'll need to execute `DROP DATABASE pokemongomapdb`, and then run `CREATE DATABASE pokemongomapdb`. If you want to keep the pokemongomapdb but start a new one, change the name. 
 6. Congratulations, your database is now setup and ready to be used. 
 
-## III. Setting up the Config.ini file & Editing utils.py
+## IV. Setting up the Config.ini file & Editing utils.py
 ### Config.ini
 1. Open file explorer to where you've extracted your develop branch of PokemonGo-Map
 2. Navigate to the "config" folder.
@@ -71,8 +71,8 @@ If you're trying to start a fresh database you'll need to execute `DROP DATABASE
     #args.step_limit = int(Config.get('Search_Settings', 'Steps'))
 ```
 
-## Run it!
-<p>Now that we have our server setup and our config.ini filled out it's time to actually run the workers to make sure everything is in check. Remember from above if you commented out any parameters in the util.py file that all of those parameters need to be met and filled out when you run the runserver.py script. In our case we commented out location, and steps so we could individual choose where each worker scanned, and the size of the scan. I've put two code snippets below, one would be used if you didn't comment out anything and instead filled out the **[Search_Settings]** in section III step 4 above. The other code snippet is what you would run if you commented out the same lines as I did in our running example.</p>
+## V. Run it!
+<p>Now that we have our server setup and our config.ini filled out it's time to actually run the workers to make sure everything is in check. Remember from above if you commented out any parameters in the util.py file that all of those parameters need to be met and filled out when you run the runserver.py script. In our case we commented out location, and steps so we could individual choose where each worker scanned, and the size of the scan. I've put two code snippets below, one would be used if you didn't comment out anything and instead filled out the **[Search_Settings]** in section IV step 4 above. The other code snippet is what you would run if you commented out the same lines as I did in our running example.</p>
 **Filled out Search_Settings & Commented out nothing in utils.py**<p></p>
 `python runserver.py -se `
 <p> </p>
@@ -81,7 +81,7 @@ If you're trying to start a fresh database you'll need to execute `DROP DATABASE
 `python runserver.py -se -st 10 -l "[LOCATION]"`
 <p>You should now be up and running. If you've encountered any errors it's most likely due to missing a parameter you commented out when you call runserver.py or you mis-typed something in your `config.ini`. However, if it's neither of those issues and something not covered in this guide hop into the PokemonGoDev discord server, and go to the help channel. People there are great, and gladly assist people with troubleshooting issues.</p>
 
-## Final Notes & Credits
+## VI. Final Notes & Credits
 ### Final Notes
 <p>As just some quick closing notes, if you've encountered any problems or issues with this guide or find it needs to be updated please don't hesitate to let me know. I am normally always in the PokemonGoDev discord channels, or you can contact me by other means. I really hope this guide goes a long way in helping others, because I know I was confused when I tried to get the mysql servers setup and without the help I received I would have never got this setup, or this guide written.</p>
 ### Credits
