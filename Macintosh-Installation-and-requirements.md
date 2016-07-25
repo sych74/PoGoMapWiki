@@ -12,9 +12,13 @@ Version 2.7 is what we usually test against. You can use 3.x but no support will
 ---
 
 ### Step 1: Install Homebrew
-Open up Terminal
+
+**Open up Terminal**
+
 1. Click on the rocket ship 
+
 2. In the search, type in `Terminal`
+
 3. Type `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 `
 
@@ -26,8 +30,10 @@ Open up Terminal
 
 For this guide we'll be using the Documents folder.
 
-While still in the Terminal
+**While still in the Terminal**
+
 1. Navigate to the user home folder. `cd ~/Documents`
+
 2. Clone the repository. `git clone https://github.com/AHAAAAAAA/PokemonGo-Map.git`
 
 Now we have all PokemonGo-Map files inside our Documents folder. Git clone automatically creates a folder called PokemonGo-Map
@@ -38,12 +44,12 @@ Go to [this page](https://console.developers.google.com/flows/enableapi?apiid=ma
 
 If you got your own API Key, open the *credentials.json* file inside the *PokemonGo-Map* folder. You can edit that file with Mac's built in text editor. Now replace the API Key in line 6 with the one you got from that Google website.
 
-![API Key](http://i.imgur.com/IjD509D.png)
-
 ### Step 6: Setup PokemonGo-Map
 
-While still in the Terminal:
+**While still in the Terminal:**
+
 1. Navigate into PokemonGo-Map folder. `cd ~/Documents/PokemonGo-Map`
+
 2. Install specific python requirements `pip install --upgrade -r requirements.txt`
 
 ### Step 7: Start PokemonGo-Map
@@ -65,8 +71,6 @@ The final command should look like this:
 
 `python example.py -a ptc -u johndoe -p ilovemama -l "400 Broad St, Seattle, WA 98109, USA" -st 5 -ar 10`
 
-![Final command](https://i.imgur.com/axKgvEI.png)
-
 Hit enter and view your map in all it's glory at http://127.0.0.1:5000/. Done!
 
 ![Map](http://i.imgur.com/EBkRhvZ.png)
@@ -79,48 +83,3 @@ Since PokemonGo-Map is under active development and gets a lot of updates, you p
 `git pull origin master`
 
 Now repeat Step 7 to restart your map.
-
-## Credentials and Downloading
-
-Create a Pokemon Club account [on their official website] to be used by the program to search for Pokemon. This generally shouldn't be the same as your main Trainer account you personally use. As of 7/21/2016 this page is unavailable most of the time, refresh the page every 5-10 minutes and it should allow signups eventually.
-
-Then, download one of the following branches below:
-
-- [Download master](https://github.com/AHAAAAAAA/PokemonGo-Map/archive/master.zip) (Stable builds)
-- [Download dev branch](https://github.com/AHAAAAAAA/PokemonGo-Map/archive/develop.zip) (Active development)
-
-The dev branch will have latest features from the development team, however it may be unstable at some times.
-
-Extract this zip file to any location.
-
-## Install Dependencies
-
-Now, open a Terminal/Command Line (`Win`+`R` and `cmd` on Windows) and `cd` to the folder you extracted the zip file to.
-
-```
-cd some/directory/
-```
-
-In Windows you can also right click within the folder and select "Open Command Window Here."
-
-Then enter the following:
-
-```
-pip install -r requirements.txt
-```
-
-## Running
-
-To start the server, run the following command:
-
-```
-python example.py -a ptc -u [USERNAME] -p [PASSWORD] -l "[LOCATION]" -st 10
-```
-
-Replaing [USERNAME] and [PASSWORD] with the Pokemon Club credentials you created previously, and [LOCATION] with any location, for example `Washington, D.C` or latitude and longitude coordinates, such as `38.9072 77.0369`.
-
-Additionally, you can change the `10` after `-st` to any number. This number indicates the number of steps away from your location it should look, higher numbers being farther.
-
-## Accessing
-
-Open your browser to [`http://localhost:5000`](http://localhost:5000) and keep refreshing as it loads more Pokemon (auto refresh is not implemented yet).
