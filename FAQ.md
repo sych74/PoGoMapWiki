@@ -1,25 +1,29 @@
+**Can I sign in with Google?**<br/>
+Yes you can! Pass the flag `-a google` to use Google authentication. 
+
 If you happen to have 2-step verification enabled for your Google account you will need to supply an [app password](https://support.google.com/accounts/answer/185833?hl=en) for your password instead of your normal login password.
 
-Q: Can I sign in with Google?<br/>
-A: Yes you can! Pass the flag `-a google` to use Google authentication
 
-Q: ... expected one argument.<br>
-A: The -dp, -dg -dl, -i, -o and -ar parameters are no longer needed. Remove them from your query
+**... expected one argument.**<br>
+The -dp, -dg -dl, -i, -o and -ar parameters are no longer needed. Remove them from your query
 
-Q: Port forwarding Tutorial?<br>
-A: https://github.com/Langoor2/PokemonGo-Map-FAQ/blob/master/FAQ/Portforwarding.md
+**How do I setup port forwarding?**<br>
+[See this helpful guide](https://github.com/Langoor2/PokemonGo-Map-FAQ/blob/master/FAQ/Portforwarding.md)
 
-Q: `python is not recognized as an internal or external command`<br/>
-A: https://github.com/Langoor2/PokemonGo-Map-FAQ/blob/master/FAQ/Enviroment_Variables_not_correct.md
+**["It's acting like the location flag is missing."](http://imgur.com/a/tM3BN)**<br>
+-1, never forget
 
-Q: `pip or python is not recognized as an internal or external command`<br/>
-pip needs to be installed to retrieve all the dependencies, [see how](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Installation-and-requirements)
+**I'm getting this error..**
 
-Q: `Exception, e <- Invalid syntax.`<br/>
-A: This error is caused by Python 3. The project officially supports 2.7
+| Error  |  Cause |
+|---|---|
+| `python is not recognized as an internal or external command`  | [Python has not been added to the environment](https://github.com/Langoor2/PokemonGo-Map-FAQ/blob/master/FAQ/Enviroment_Variables_not_correct.md)  |
+| `pip or python is not recognized as an internal or external command`  | [pip needs to be installed to retrieve all the dependencies](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Installation-and-requirements)  |
+| `Exception, e <- Invalid syntax.`  | This error is caused by Python 3. The project requires python 2.7  |
+| `error: command 'gcc' failed with exit status 1`  | Your OS is missing the `gcc` compiler library. Run `apt-get install build-essentials`  |
+| `[...]failed with error code 1 in /tmp/pip-build-k3oWzv/pycryptodomex/`   | Your OS is missing the `gcc` compiler library. Run `apt-get install build-essentials`  |
+|   |   |
+|   |   |
 
-Q: `error: command 'gcc' failed with exit status 1` or `[...]failed with error code 1 in /tmp/pip-build-k3oWzv/pycryptodomex/`  
-A: Your OS is missing the `gcc` compiler library. Run `apt-get install build-essentials`
 
-Q: ["It's acting like the location line is missing."](http://imgur.com/a/tM3BN)<br>
-A: -1, never forget
+
