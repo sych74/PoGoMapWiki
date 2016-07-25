@@ -25,6 +25,68 @@ You can install Python and Pip on Red Hat by running the following command:
 yum install python python-pip
 ```
 
+### OS X
+
+OS X comes with some outdated Python packages.
+
+You will need to install `pip`, then upgrade a few python packages. 
+
+Instructions (run everything, each on it's own line, ignore the `$` sign):
+
+```
+$ curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
+$ sudo python ./get-pip.py
+$ sudo -H easy_install --upgrade six
+$ sudo -H easy_install --upgrade setuptools
+$ sudo -H pip install requirements.txt
+```
+
+Result:
+
+```
+python ./runserver.py --help
+usage: runserver.py [-h] [-se] [-a AUTH_SERVICE] [-u USERNAME] [-p PASSWORD]
+                    [-l LOCATION] [-st STEP_LIMIT] [-sd SCAN_DELAY] [-dc]
+                    [-H HOST] [-P PORT] [-L LOCALE] [-c] [-d] [-m] [-ns]
+                    [-k GMAPS_KEY] [-C] [-D DB] [-t NUM_THREADS]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -se, --settings
+  -a AUTH_SERVICE, --auth-service AUTH_SERVICE
+                        Auth Service
+  -u USERNAME, --username USERNAME
+                        Username
+  -p PASSWORD, --password PASSWORD
+                        Password
+  -l LOCATION, --location LOCATION
+                        Location, can be an address or coordinates
+  -st STEP_LIMIT, --step-limit STEP_LIMIT
+                        Steps
+  -sd SCAN_DELAY, --scan-delay SCAN_DELAY
+                        Time delay before beginning new scan
+  -dc, --display-in-console
+                        Display Found Pokemon in Console
+  -H HOST, --host HOST  Set web server listening host
+  -P PORT, --port PORT  Set web server listening port
+  -L LOCALE, --locale LOCALE
+                        Locale for Pokemon names: default en, checklocale
+                        folder for more options
+  -c, --china           Coordinates transformer for China
+  -d, --debug           Debug Mode
+  -m, --mock            Mock mode. Starts the web server but not the
+                        background thread.
+  -ns, --no-server      No-Server Mode. Starts the searcher but not the
+                        Webserver.
+  -k GMAPS_KEY, --google-maps-key GMAPS_KEY
+                        Google Maps Javascript API Key
+  -C, --cors            Enable CORS on web server
+  -D DB, --db DB        Database filename
+  -t NUM_THREADS, --threads NUM_THREADS
+                        Number of search threads
+```
+(Test on OS X El Capitan)
+
 ### Windows
 
 Download Python [here](https://www.python.org/ftp/python/2.7.12/python-2.7.12.amd64.msi) and install. Then download [pip](https://bootstrap.pypa.io/get-pip.py) (right click that link and choose "Save Link As"), and double click the file you downloaded, assuming you installed Python correctly.
