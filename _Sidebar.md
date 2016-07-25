@@ -21,3 +21,5 @@
 [How to start using a MySQL Database](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/How-to-start-using-a-MySQL-Server)
 
 [Environment Variables Fix](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Environment-Variables-fix)
+
+[Advanced Scanning](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Advanced-Scanning)
