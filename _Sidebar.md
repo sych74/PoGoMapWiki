@@ -24,4 +24,4 @@
 
 [Advanced Scanning](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Advanced-Scanning)
 
-[Running Behind Nginx Reverse Proxy](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Running-behind-a-nginx-reverse-proxy-on-Linux)
+[Running Behind Nginx Reverse Proxy](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Running-Behind-a-nginx-Reverse-Proxy-on-Linux-with-Let's-Encrypt-SSL-Cert)
