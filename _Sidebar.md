@@ -15,8 +15,7 @@
 [Google Maps API: a brief guide to your own key](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Google-Maps-API:-a-brief-guide-to-your-own-key)
 
 [How to make your map available externally](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/How-to-make-your-map-available-externally)  
-
-[How to make your map available externally: NGROK Method](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/How-to-make-your-map-available-externally:-NGROK-Method)  
+ 
 
 [How to start using a MySQL Database](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/How-to-start-using-a-MySQL-Server)
 
