@@ -5,6 +5,9 @@ Pokemon Go Map is aiming to bring a live visualization map of nearby Pokémon, P
 Video Setup: 
 [Video Walkthrough](https://www.youtube.com/watch?v=RJKAulPCkRI)  
 [German Amazon EC2 Tutorial](https://www.youtube.com/watch?v=FxcVGrszl3I)
+
+# Basic Installation
+
 ## Prerequisites
 
 Installation will require Python 2.7 and Pip. If you already have these you can skip to [installation](#install-dependencies). Python 3 is not supported at all.
@@ -157,6 +160,8 @@ Additionally, you can change the `10` after `-st` to any number. This number ind
 ## Accessing
 
 Open your browser to [`http://localhost:5000`](http://localhost:5000) and keep refreshing as it loads more Pokemon (auto refresh is not implemented yet).
+
+# Other Information
 
 ## Project refactor
 As of 2016-07-20, support for the first implementation 'example.py' was dropped.<br/>
