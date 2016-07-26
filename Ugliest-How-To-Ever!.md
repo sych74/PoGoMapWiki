@@ -44,25 +44,25 @@ SET thread=-t 1
 SET locale=EN  
 
 
-::kill all python processes
+::kill all python processes  
 taskkill /IM python.exe /F
 echo Starting worker processes....
 
 
-::title of this command window
+::title of this command window  
 title Pokemon Go Map
 
-::paste the second column of colors here, down to the last space of the color you wanted. Pink = 1 Leap, Purple - 2 Leaps, Blue = 3 Leaps, Green = 4 Leaps, and Yellow = 5 Leaps. The amount of workers required gets silly after 5 Leaps :P)
+::paste the second column of colors here, down to the last space of the color you wanted. Pink = 1 Leap, Purple - 2 Leaps, Blue = 3 Leaps, Green = 4 Leaps, and Yellow = 5 Leaps. The amount of workers required gets silly after 5 Leaps :P)  
 
 
 
-::this part is the time it will pause till going back to the start again to restart the servers (edit the 1801 to change the delay in seconds)
+::this part is the time it will pause till going back to the start again to restart the servers (edit the 1801 to change the delay in seconds)  
 
-echo Waiting 30 minutes to restart all processes
-ping 127.0.0.1 -n 1801 > nul
+echo Waiting 30 minutes to restart all processes  
+ping 127.0.0.1 -n 1801 > nul  
 
-goto start
-pause
+goto start  
+pause  
 
 Copy and paste all of ^ into a .txt document, rename it to Dickbutt.bat
 
