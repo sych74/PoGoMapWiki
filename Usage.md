@@ -7,6 +7,7 @@ usage: `runserver.py [-h] [-se] [-a AUTH_SERVICE] [-u USERNAME] [-p PASSWORD]
 ## Arguments
 
 `-h` - shows help message.  
+`-se` - Reads config.ini (deprecated in new versions)
 ### Authentication
 `-a AUTH_SERVICE` - Auth Service (ptc or google).  
 `-u USERNAME` - Username (Email if using google).  
