@@ -25,4 +25,13 @@ python runserver.py -u [USERNAME] -p [PASSWORD] -st 10 -k [Google Maps API key] 
 
 Once you have that, create your Droplet. Setup will take a few minutes initially, but once it's done your map will be accessible at `http://[YOURDROPLET]/`, replacing that of course with your Droplet's IP address.
 
+## Starting the server
+
+On the first boot the server will start automatically so this step isn't necessary, however if you have to restart the Droplet for any reason, you can start PoGoMap with the following two commands:
+
+```
+cd /root/PoGoMap
+python runserver.py -u [USERNAME] -p [PASSWORD] -st 10 -k [Google Maps API key] -l "[LOCATION]" -H 0.0.0.0 -P 80
+```
+
 Credit: [JonahAragon](https://github.com/JonahAragon)
