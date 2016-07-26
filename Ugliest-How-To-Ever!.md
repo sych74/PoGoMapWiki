@@ -1,4 +1,4 @@
-First off, you will need to obtain https://github.com/AHAAAAAAA/PokemonGo-Map/pull/2153  
+###First off, you will need to obtain https://github.com/AHAAAAAAA/PokemonGo-Map/pull/2153  
 
 If you dont know how to do that, sorry.. i forgot how myself (SOmeone tell them how! ((unless its merged by that point)) )  
 
@@ -9,13 +9,15 @@ Next, Open a Terminal by Shift + Right Clicking inside the folder you just put t
 python location_generator.py -st stepsize -lp ringsize -lat yourstartinglathere -lon yourstartinglonghere  
 
 
-An example will look like this - python location_generator.py -st 5 -lp 4 -lat 39.949157 -lon -75.165297  
+An example will look like this -  
+
+python location_generator.py -st 5 -lp 4 -lat 39.949157 -lon -75.165297  
 
 the terminal will output a list of coordinates. Right click the terminal, and select Mark. copy the entire list of coordinates, and then head over to your saved copy of this page: https://docs.google.com/spreadsheets/d/1Uh4VITpCciSy8pRh9I7OZuNiM-LizyBJcU7WR8oi7yY/edit#gid=263691484  
 
 We are going to paste all of the coords you just copied, into the first section of colored spaces, starting with the Top Pink one (ctrl v will do it automagically!)  
 
-Next, setting up your .Bat, to be able to use the formatting from that page:  
+##Next, setting up your .Bat, to be able to use the formatting from that page:  
   
   
   
