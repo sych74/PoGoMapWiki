@@ -1,30 +1,30 @@
-First off, you will need to obtain https://github.com/AHAAAAAAA/PokemonGo-Map/pull/2153
+First off, you will need to obtain https://github.com/AHAAAAAAA/PokemonGo-Map/pull/2153  
 
-If you dont know how to do that, sorry.. i forgot how myself (SOmeone tell them how! ((unless its merged by that point)) )
+If you dont know how to do that, sorry.. i forgot how myself (SOmeone tell them how! ((unless its merged by that point)) )  
 
-Alright, now that you have the Beehive, destroy everything except Location_Generator.py. Put this file into its own little folder, i named myne Beehive.
+Alright, now that you have the Beehive, destroy everything except Location_Generator.py. Put this file into its own little folder, i named myne Beehive.  
 
-Next, Open a Terminal by Shift + Right Clicking inside the folder you just put the location.py into. Once the terminal opens, type in the following command: 
+Next, Open a Terminal by Shift + Right Clicking inside the folder you just put the location.py into. Once the terminal opens, type in the following command:   
 
-python location_generator.py -st stepsize -lp ringsize -lat yourstartinglathere -lon yourstartinglonghere
-
-
-An example will look like this - python location_generator.py -st 5 -lp 4 -lat 39.949157 -lon -75.165297
-
-the terminal will output a list of coordinates. Right click the terminal, and select Mark. copy the entire list of coordinates, and then head over to your saved copy of this page: https://docs.google.com/spreadsheets/d/1Uh4VITpCciSy8pRh9I7OZuNiM-LizyBJcU7WR8oi7yY/edit#gid=263691484
-
-We are going to paste all of the coords you just copied, into the first section of colored spaces, starting with the Top Pink one (ctrl v will do it automagically!)
-
-Next, setting up your .Bat, to be able to use the formatting from that page:
+python location_generator.py -st stepsize -lp ringsize -lat yourstartinglathere -lon yourstartinglonghere  
 
 
+An example will look like this - python location_generator.py -st 5 -lp 4 -lat 39.949157 -lon -75.165297  
 
-:: Set PythonPath to where your Python is installed, Typically C:\Python27\Python.exe
-:: Set BranchPath to where you have the Pokemon Live Map folder
+the terminal will output a list of coordinates. Right click the terminal, and select Mark. copy the entire list of coordinates, and then head over to your saved copy of this page: https://docs.google.com/spreadsheets/d/1Uh4VITpCciSy8pRh9I7OZuNiM-LizyBJcU7WR8oi7yY/edit#gid=263691484  
 
-SET PythonPath=
-SET BranchPath=
-SET Executable=runserver.py
+We are going to paste all of the coords you just copied, into the first section of colored spaces, starting with the Top Pink one (ctrl v will do it automagically!)  
+
+Next, setting up your .Bat, to be able to use the formatting from that page:  
+
+
+
+:: Set PythonPath to where your Python is installed, Typically C:\Python27\Python.exe  
+:: Set BranchPath to where you have the Pokemon Live Map folder  
+
+SET PythonPath=  
+SET BranchPath=  
+SET Executable=runserver.py  
 
 ::GAPI is your google map api key
 ::auth is the authentication service you are using. PTC or Google
@@ -34,12 +34,12 @@ SET Executable=runserver.py
 ::locale is the language output in your terminal, default is EN (english)
 
 
-SET GAPI=
-SET auth=
-SET username=
-SET password=
-SET thread=-t 1
-SET locale=EN
+SET GAPI=  
+SET auth=  
+SET username=  
+SET password=  
+SET thread=-t 1  
+SET locale=EN  
 
 
 ::kill all python processes
