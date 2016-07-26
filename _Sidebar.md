@@ -21,6 +21,4 @@
 
 [Environment Variables Fix](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Environment-Variables-fix)
 
-[Advanced Scanning](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Advanced-Scanning)
-
 [Running Behind Nginx Reverse Proxy](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Running-Behind-a-nginx-Reverse-Proxy-on-Linux-with-Let's-Encrypt-SSL-Cert)
