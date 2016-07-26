@@ -36,7 +36,7 @@ OS X comes with some outdated Python packages.
 
 You will need to install `pip`, then upgrade a few python packages. 
 
-Instructions (run everything, each on it's own line, ignore the `$` sign):
+Instructions (run everything, each on its own line, ignore the `$` sign):
 
 ```
 $ curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
