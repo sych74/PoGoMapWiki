@@ -1,5 +1,7 @@
 # How to start using a MySQL server
-**This is a guide for windows only currently.**
+**This is a guide for windows only currently.**  
+
+** Updated for commit [775982e](https://github.com/AHAAAAAAA/PokemonGo-Map/commit/775982ea5683ae186124ae96e5561519679ddf1a) **
 
 ## I. Prerequisites 
 1. Have already ran/operated the PokemonGo-Map using the default database setup. 
@@ -41,17 +43,31 @@ If you're trying to start a fresh database you'll need to execute `DROP DATABASE
 1. Open file explorer to where you've extracted your develop branch of PokemonGo-Map
 2. Navigate to the "config" folder.
 3. Right-click and open config.ini in your text editor of choice. I used Notepad++.
-4. You're looking to fill in all the values in this file. If you've already ran and used the PokemonGo-Map like was required in step 1 of the prerequisites you should be familiar with most of this information, but I've broken it all down below.
-    - **[Authentication]** - Service is either ptc, or google. Username and Password are your respective credentials for the service you chose above.
-    - **[Database]** - This is the important section you will want to modify. 
-        - Change the "Type" to "mysql" 
-        - Change "Database_Name" to "pokemongomapdb"
-        - Change "Database_User:" to "root", Change "Database_Pass:" to the password you chose in step 5a in section II, or leave it blank if you followed step 5b in section II.
-        - Change "Database_Host" to "127.0.0.1"
-    - **[Search_Settings]** - You will need to fill this out only if you plan to run only one worker to search for Pokemon. I personally run multiple workers to look for Pokemon so I left all of these at their defaults. If you plan to only run one instance however this needs to be filled out. Steps is how far out you want the scanner to look, Location is the coordinates of where you want to search, "Scan_delay" is how many seconds you want between scans, and if you so wish you may also disable pokemon, pokestops, or gyms by setting the respective value to true. I personally just do it on my actual map. If you plan to run more then one worker, make sure you follow the "editing utils.py" part below once you've setup the config.ini 
-    - **[Misc]** - "Google_Maps_API_Key" is your own personal google maps API key. If you don't have one, or don't know what that is please see [this](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Google-Maps-API:-a-brief-guide-to-your-own-key) wiki page for the PokemonGo-Map project. "Host" is the host you are using, "Port" is whatever port you are running the map through, both of which would have been needed for you to run the map in prerequisite 1. 
+4. You're looking to fill in all the values in this file. If you've already ran and used the PokemonGo-Map like was required in step 1 of the prerequisites you should be familiar with most of this information, but I've broken it all down below. On every line that you change/add a value make sure you remove the `#` as that makes the program think it is a comment, which obviously ignores the values you input.
+    - **Authentication Settings:** You'll need to pick between using google, or pokemon trainer club login information. The PokemonGo-Map initial setup recommends ptc. 
+        - Change "auth-service" to ptc or google, whichever you choose.
+        - Change "username" to your respective username for the selected service.
+        - Change "password" to your respective password for the username on the selected service.
+    - **Database Settings:** This is the important section you will want to modify. 
+        - Change the "db-type" to "mysql" 
+        - Change "db-host" to "127.0.0.1"
+        - Change "db-name:" to "pokemongomapdb"
+        - Change "db-user:" to "root"
+        - Change "db-pass" to the password you chose in step 5a of section II, or leave it blank if you chose to roll with no password.
+    - **Search Settings:** You only need to change this if you want to only run one location, or wish to disable gyms/pokemon/pokestops for all locations, or to have a universal thread count, scan delay, or step limit. I chose to not edit anything in the new config.ini.
+    - **Misc:** This only has one setting and that's the google maps api key. If you don't have one, or don't know what that is please see [this](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Google-Maps-API:-a-brief-guide-to-your-own-key) wiki page for the PokemonGo-Map project. 
+        - Change "gmaps-key:" to contain your google maps API key.
+    - **Webserver Settings:** This is how your server knows where to communicate.
+        - Change "host" to the host address you should already have setup.
+        - Change "port" is whatever port you are running the map through, default is 5000.
+5. Make sure you've removed all of the `#` from any line with a value you inputted. Indent the comments that are after the values as well, so they are on the following line below the variable they represent. For example:
+```
+# Database settings
+db-type:mysql
+# sqlite (default) or mysql
+```
 5. Go to File->Save as... and make sure you save this file into the same directory as the "config.ini.example", but obviously save it as "config.ini". Make sure it's saved as a .ini file type, and not anything else or it won't work. 
-6. You're now done configuring your config.ini file, 
+6. You're now done configuring your config.ini file.
 
 ## V. Run it!
 <p>Now that we have our server setup and our config.ini filled out it's time to actually run the workers to make sure everything is in check. Remember from above if you commented out any parameters in the util.py file that all of those parameters need to be met and filled out when you run the runserver.py script. In our case we commented out location, and steps so we could individual choose where each worker scanned, and the size of the scan. I've put two code snippets below, one would be used if you didn't comment out anything and instead filled out the **[Search_Settings]** in section IV step 4 above. The other code snippet is what you would run if you commented out the same lines as I did in our running example.</p>
