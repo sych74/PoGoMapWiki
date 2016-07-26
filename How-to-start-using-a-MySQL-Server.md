@@ -56,11 +56,11 @@ If you're trying to start a fresh database you'll need to execute `DROP DATABASE
 ## V. Run it!
 <p>Now that we have our server setup and our config.ini filled out it's time to actually run the workers to make sure everything is in check. Remember from above if you commented out any parameters in the util.py file that all of those parameters need to be met and filled out when you run the runserver.py script. In our case we commented out location, and steps so we could individual choose where each worker scanned, and the size of the scan. I've put two code snippets below, one would be used if you didn't comment out anything and instead filled out the **[Search_Settings]** in section IV step 4 above. The other code snippet is what you would run if you commented out the same lines as I did in our running example.</p>
 **Filled out Search_Settings**<p></p>
-`python runserver.py -se `
+`python runserver.py`
 <p> </p>
 **Left Search_Settings at default**
 <p> </p>
-`python runserver.py -se -st 10 -l "[LOCATION]"`
+`python runserver.py -st 10 -l "[LOCATION]"`
 <p>You should now be up and running. If you've encountered any errors it's most likely due to missing a parameter you commented out when you call runserver.py or you mis-typed something in your `config.ini`. However, if it's neither of those issues and something not covered in this guide hop into the PokemonGoDev discord server, and go to the help channel. People there are great, and gladly assist people with troubleshooting issues.</p>
 
 ## VI. Final Notes & Credits
