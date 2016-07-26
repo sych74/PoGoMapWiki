@@ -53,30 +53,12 @@ If you're trying to start a fresh database you'll need to execute `DROP DATABASE
 5. Go to File->Save as... and make sure you save this file into the same directory as the "config.ini.example", but obviously save it as "config.ini". Make sure it's saved as a .ini file type, and not anything else or it won't work. 
 6. You're now done configuring your config.ini file, 
 
-### Editing Utils.py
-**You only need to do this if you want to run multiple workers/scanners for pokemon with the mysql database**
-<p>The reason you only need to do this with the mysql database is because in order to use the mysql database you must use the config.ini file. So when you call the config.ini with `-se` in runserver.py it ignores all other paramaters. We are simply going to comment out where it asks for location, and steps. However if you have a need to pass additonal paramters when you call runserver.py feel free to comment other blocks. </p>
-1. Navigate to your branch directory
-2. Go to the "pogom" folder
-3. Locate utils.py and open it in your text editor of choice. 
-4. The lines your looking for are under `def parse_config(args):` 
-5. Simply add `#` to the front of every line you no longer want as a parameter. In our case: <p></p>
-```
-    args.location = Config.get('Search_Settings', 'Location')
-    args.step_limit = int(Config.get('Search_Settings', 'Steps'))
-```
-<p>becomes </p>
-```
-    #args.location = Config.get('Search_Settings', 'Location')
-    #args.step_limit = int(Config.get('Search_Settings', 'Steps'))
-```
-
 ## V. Run it!
 <p>Now that we have our server setup and our config.ini filled out it's time to actually run the workers to make sure everything is in check. Remember from above if you commented out any parameters in the util.py file that all of those parameters need to be met and filled out when you run the runserver.py script. In our case we commented out location, and steps so we could individual choose where each worker scanned, and the size of the scan. I've put two code snippets below, one would be used if you didn't comment out anything and instead filled out the **[Search_Settings]** in section IV step 4 above. The other code snippet is what you would run if you commented out the same lines as I did in our running example.</p>
-**Filled out Search_Settings & Commented out nothing in utils.py**<p></p>
+**Filled out Search_Settings**<p></p>
 `python runserver.py -se `
 <p> </p>
-**Left Search_Settings at default & Commented out location, and steps in utils.py**
+**Left Search_Settings at default**
 <p> </p>
 `python runserver.py -se -st 10 -l "[LOCATION]"`
 <p>You should now be up and running. If you've encountered any errors it's most likely due to missing a parameter you commented out when you call runserver.py or you mis-typed something in your `config.ini`. However, if it's neither of those issues and something not covered in this guide hop into the PokemonGoDev discord server, and go to the help channel. People there are great, and gladly assist people with troubleshooting issues.</p>
