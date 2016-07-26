@@ -1,5 +1,6 @@
 # How to start using a MySQL server
 **This is a guide for windows only currently.**  
+**Preliminary Linux (Debian) instructions below (VII)**
 
 ** Updated for commit [775982e](https://github.com/AHAAAAAAA/PokemonGo-Map/commit/775982ea5683ae186124ae96e5561519679ddf1a) **
 
@@ -85,3 +86,21 @@ db-type:mysql
 ### Credits
 <p>I'd just like to credit the PokemonGoDev channel on discord and the many people who have helped me in the past few days. I've learned a lot, and while I used to hobby program I just haven't been able to dig deep into this project. So without the help of the guys in Discord this guide wouldn't have been possible. So shout out to all of them, because well frankly tons of people helped me at various points along my way. </p>
 <p>I'd also like to specifically credit Znuff2471 on discord for their great assistance, definitely one of the main contributors to helping me set this all up.</p>
+
+## VII. Linux Instructions
+1. Visit https://downloads.mariadb.org/mariadb/repositories/ and download mariaDB
+2. Login to your MySQL DB
+  - mysql -p
+  - Enter your password if you set one
+3. Create the DB `CREATE DATABASE pokemongomapdb;`
+4. Quit the MySQL command line tool `quit`
+5. Edit the `config/config.ini` file
+
+```
+# Database settings
+db-type: mysql        # sqlite (default) or mysql
+db-host: 127.0.0.1               # required for mysql
+db-name: pokemongomapdb              # required for mysql
+db-user: YourUser              # required for mysql
+db-pass: YourPW              # required for mysql
+```
