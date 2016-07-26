@@ -1,5 +1,5 @@
 ##How to make your map externally visible
-A lot of people ask how you can make your map externally visible, so other people can view it, or so you can visit it from another location
+A lot of people ask how you can make your map externally visible, so other people can view it, or so you can visit it from another location ngrok
 
 ###THIS GUIDE IS NOT UNIVERSAL
 Some steps in this guide depend on your router, altough, most routers have a lot in common, so you should be fine
