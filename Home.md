@@ -38,7 +38,7 @@ $ curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
 $ sudo python ./get-pip.py
 $ sudo -H easy_install --upgrade six
 $ sudo -H easy_install --upgrade setuptools
-$ sudo -H pip install requirements.txt
+$ sudo -H pip install -r requirements.txt
 ```
 
 To install node and npm, download and install the installer from https://nodejs.org/en/download/.
