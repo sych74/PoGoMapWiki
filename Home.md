@@ -21,8 +21,11 @@ sudo apt-get install python python-pip nodejs npm
 
 You can install required packages on Red Hat by running the following command:
 
+You may also need to install the EPEL repository to install python-pip and python-devel.
+`yum install epel-release`
+
 ```
-yum install python python-pip nodejs npm
+yum install python python-pip nodejs npm python-devel
 ```
 
 ### OS X
