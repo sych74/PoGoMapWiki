@@ -67,7 +67,7 @@ A full list of parameters you can use with the map and what they mean can be fou
 > **Note**: It's recommended that you create a dummy account to use this Map with in order to prevent your real account from getting (soft)banned.
 
 The final command should look like this (for master branch):
-`python example.py -a ptc -u johndoe -p ilovemama -l "400 Broad St, Seattle, WA 98109, USA" -st 5`
+`python runserver.py -a ptc -u johndoe -p ilovemama -l "400 Broad St, Seattle, WA 98109, USA" -st 5`
 
 If you are working in the develop branch, then use runserver.py instead of example.py
 
