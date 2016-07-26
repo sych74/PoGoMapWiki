@@ -2,7 +2,7 @@ Create directory `~/supervisor`, and `~/supervisor/procs.d`
 
 Create file `~/supervisor/supervisord.conf`:
 
-	supervisord.conf; Sample supervisor config file.
+	; Sample supervisor config file.
 	;
 	; For more information on the config file, please see:
 	; http://supervisord.org/configuration.html
