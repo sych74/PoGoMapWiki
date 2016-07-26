@@ -8,6 +8,8 @@
 
 [Heroku Deployment](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Heroku-Deployment)<br/>
 
+[DigitalOcean Deployment](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/DigitalOcean-Deployment)<br/>
+
 [Usage](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Usage)<br/>
 
 [FAQ](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/FAQ)<br/>
