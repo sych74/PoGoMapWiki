@@ -14,7 +14,7 @@ Installation will require Python 2.7 and Pip. If you already have these you can 
 You can install the required packages on Ubuntu by running the following command:
 
 ```
-sudo apt-get install python python-pip nodejs
+sudo apt-get install python python-pip nodejs npm
 ```
 
 ### Red Hat or CentOs or Fedora
@@ -22,7 +22,7 @@ sudo apt-get install python python-pip nodejs
 You can install required packages on Red Hat by running the following command:
 
 ```
-yum install python python-pip nodejs
+yum install python python-pip nodejs npm
 ```
 
 ### OS X
