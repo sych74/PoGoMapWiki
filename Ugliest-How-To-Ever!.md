@@ -16,9 +16,9 @@ the terminal will output a list of coordinates. Right click the terminal, and se
 We are going to paste all of the coords you just copied, into the first section of colored spaces, starting with the Top Pink one (ctrl v will do it automagically!)  
 
 Next, setting up your .Bat, to be able to use the formatting from that page:  
-
-
-
+  
+  
+  
 :: Set PythonPath to where your Python is installed, Typically C:\Python27\Python.exe  
 :: Set BranchPath to where you have the Pokemon Live Map folder  
 
