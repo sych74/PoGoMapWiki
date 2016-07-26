@@ -28,12 +28,12 @@ SET PythonPath=
 SET BranchPath=  
 SET Executable=runserver.py  
 
-::GAPI is your google map api key
-::auth is the authentication service you are using. PTC or Google
-::Self explanatory, username of the chosen auth service
-::again.. do i need to explain? password of chosen auth
-::Threads default is 1, if you want more, change it here.. 1 is recommended until multithreading is fixed in windows.
-::locale is the language output in your terminal, default is EN (english)
+::GAPI is your google map api key  
+::auth is the authentication service you are using. PTC or Google  
+::Self explanatory, username of the chosen auth service  
+::again.. do i need to explain? password of chosen auth  
+::Threads default is 1, if you want more, change it here.. 1 is recommended until multithreading is fixed in windows.  
+::locale is the language output in your terminal, default is EN (english)  
 
 
 SET GAPI=  
