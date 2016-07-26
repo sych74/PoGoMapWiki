@@ -1,29 +1,47 @@
 ##How to get your own Google Maps key and use it for this project
 This project uses Google Maps. There's one map coupled with the project, but as it gets more popular we'll definitely hit the rate-limit making the map unusable.
 ### Often this error is encounterd
-<p>
-<img src="https://i.imgur.com/QsMfL8D.png">
-</p>
-### How to fix this
-Step 1] Go to [this](https://console.developers.google.com/flows/enableapi?apiid=maps_backend,geocoding_backend,directions_backend,distance_matrix_backend,elevation_backend,places_backend&keyType=CLIENT_SIDE&reusekey=true) webpage, you may have to sign in with your Google account.
 
-Step 2] Select "Create new project" and click "continue". This may take a while, be patient and do not close the webpage.
-<p>
-<img src="https://i.imgur.com/WoGBZjH.png">
-</p>
-Step 3] Now enter an fancy name, and click create.
-<p>
-<img src="https://i.imgur.com/Oc10qJ9.png">
-</p>
-Step 4] Get your key and enable the Javascript API! An pop-up box will appear with you new API-Key! Save this Key ID. It is required for later in the Heroku configuration. One last step in the Google API dialogue before you leave, you need to enable the Google Maps JavaScript API to make available your newly generated key to outside services. This is accomplished by searching for Google Maps Javascript API in the search dialogue on the dev network homepage. Then enable it. This will prevent browser console errors in the future that say "ApiNotActivatedMapError." Now close the Google dev window.
-<p>
-<img src="https://i.imgur.com/D1K26f8.png">
-</p>
-Step 5] Navigate to your pokemon map directory, and inside the config folder you will find credentials.json.
-<p>
-<img src="https://i.imgur.com/sv4wNtd.png">
-</p>
-Step 6] add your previously created Google API key in this file, save it, and re-run the server! it should be working now! If you see an error, make sure you actually enabled the Javascript API in Step 4.
-<p>
-<img src="https://i.imgur.com/10uqA47.png">
-</p>
+![Map Error](http://i.imgur.com/EOdAqUo.png)
+
+### How to fix this
+1. Go to [Google API Console](https://console.developers.google.com/)
+2. If it's the first time, click 'Next' on a bunch of pop-ups or just click somewhere where the pop-ups aren't
+3. Create Credentials
+
+ ![Credentials](http://i.imgur.com/rTzIfVp.png)
+   - Select a project: Create a project
+   - Project name: Anything you want
+   - Yes/No for email
+   - Yes to agree to ToS
+   - Click create.
+
+4. Get your API Key
+   - Click on Credentials again
+   - Click Create --> API
+   - Choose 'Browser Key'
+   - Click 'Create' and then copy the API Key somewhere
+   
+   ![API Browser Key](http://i.imgur.com/csEFWKd.png)
+
+   ![API Browser Key](http://i.imgur.com/6upJVIr.png)
+
+5. Enable two Google Maps APIs
+   - Google Maps Javascript API - Enables Displaying of Map
+     - Click on 'Library'
+     - Click on Google Maps Javascript API
+     - Click 'ENABLE'
+   - Google Places API Web Service - Enables Location Searching
+     - Click on 'Library'
+     - Type 'Places' into the search box ' Search all 100+ APIs'
+     - Choose Google Places API Web Service
+     - Click 'ENABLE'
+
+### Configuration of API Key
+1. Navigate to your pokemon map directory, and inside the config folder you will find credentials.json.
+
+![Map Directory](http://i.imgur.com/zcOShnQ.png)
+
+2. Add your previously created Google API key in this file, save it, and re-run the server! it should be working now! If you see an error, make sure you actually enabled the Javascript API in Step 5.
+
+![credentials.json](http://i.imgur.com/H4QjVi1.png)
