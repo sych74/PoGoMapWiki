@@ -21,6 +21,7 @@ Since the account is created, you will get 10$ in credits as reward.
 * "Choose a datacenter region": Select any region you want to use
 * "User Data": To use the ready to use configuration for your server, enable "User Data" checkbox and insert the following code into the textarea:
 
+## Use master-Branch
 ```
 #cloud-config
 packages:
@@ -35,11 +36,26 @@ runcmd:
   - nohup python runserver.py -a <AUTHMETHOD> -u <USERNAME> -p <PASSWORD> -l <LOCATION> -st 20 -H 0.0.0.0 -P 80 -k <GMAPKEY> &
 ```
 
+## Use develop-Branch
+#cloud-config
+packages:
+  - python
+  - python-pip
+  - unzip
+runcmd:
+  - cd /opt
+  - wget https://github.com/AHAAAAAAA/PokemonGo-Map/archive/develop.zip
+  - unzip develop.zip
+  - cd PokemonGo-Map-develop
+  - locale-gen en_GB.UTF-8
+  - pip install -r requirements.txt
+  - nohup python runserver.py -a <AUTHMETHOD> -u <USERNAME> -p <PASSWORD> -l <LOCATION> -st 20 -H 0.0.0.0 -P 80 -k <GMAPKEY> &
+```
+
+
 For more information about cloud-config see: [How to Use Cloud-Config for your initial Server Setup](https://www.digitalocean.com/community/tutorials/how-to-use-cloud-config-for-your-initial-server-setup)
 
 Note: Change the ```<VARIABLES>``` with your data.
-
-The master-branch will be used to install PokemonGo-Map
 
 After the server is created, you'll get an email with login information (ip address, root password).
 Type in the ip address in your browser to show up the PokemonGo-Map.
