@@ -1,3 +1,14 @@
+# Assuming:
+
+* You are running on Linux
+* You have installed [supervisord](http://supervisord.org/)
+* You have seen a shell prompt at least a few times in your life
+* You have configured your stuff properly in `config.ini`
+* You understand worker separation
+* You can tie your own shoelaces
+
+# The good stuff
+
 Create directory `~/supervisor`, and `~/supervisor/procs.d`
 
 Create file `~/supervisor/supervisord.conf`:
