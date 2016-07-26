@@ -243,7 +243,7 @@ You should now have a bunch of .ini files in `~/supervisor/procs.d/`
 You can now do:
 
     cd ~/supervisor
-    supervisor -c supervisor
+    supervisord -c supervisor
 
 
 
