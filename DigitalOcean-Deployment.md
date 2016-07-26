@@ -1,8 +1,8 @@
 ## Prerequisites
 
-- A DigitalOcean account, sign up [here](https://m.do.co/c/fb6730f5bb99).
-- A Google Maps API key, learn more [here](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Google-Maps-API:-a-brief-guide-to-your-own-key).
-- A new Pokemon Club account, sign up [here](https://club.pokemon.com/us/pokemon-trainer-club/sign-up/)
+- [A DigitalOcean account](https://m.do.co/c/fb6730f5bb99)
+- [A Google Maps API key](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Google-Maps-API:-a-brief-guide-to-your-own-key)
+- [A new Pokemon Club account](https://club.pokemon.com/us/pokemon-trainer-club/sign-up/)
 
 ## Installation
 
