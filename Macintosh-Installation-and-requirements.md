@@ -81,6 +81,6 @@ Hit enter and view your map in all it's glory at http://127.0.0.1:5000/. Done!
 ### Bonus: How to update PokemonGo-Map
 Since PokemonGo-Map is under active development and gets a lot of updates, you probably want to get all the latest features and bug fixes. You can see the latest updates (called commits) [here](https://github.com/AHAAAAAAA/PokemonGo-Map/commits/master). To update your copy, *Git Bash here* from the PokemonGo-Map folder, paste this command and hit enter:
 
-`git pull origin master`
+`git pull`
 
 Now repeat Step 7 to restart your map.
