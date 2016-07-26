@@ -13,3 +13,46 @@ Distances:
 Link to figure out how to link all the hexagons together: http://goo.gl/X81fZq
 
 contributed by olathurl from discord
+
+```
+# coding: utf8
+
+import math
+
+# Earth’s radius, sphere
+R = 6378.1
+cmd = "python runserver.py -ns -l '{lat} {lon}' --port {port}"
+
+# starting point
+sham = (-33.8961, 151.1543)
+lat = sham[0]
+lon = sham[1]
+
+
+# offsets in meters
+d = 2.85
+brng = 90
+
+
+for i in range(5):
+    # // Coordinate offsets in radians
+    lat1 = math.radians(lat)  # Current lat point converted to radians
+    lon1 = math.radians(lon)  # Current long point converted to radians
+
+    lat2 = math.asin(math.sin(lat1) * math.cos(d / R) +
+                     math.cos(lat1) * math.sin(d / R) * math.cos(brng))
+
+    lon2 = lon1 + math.atan2(math.sin(brng) * math.sin(d / R) * math.cos(lat1),
+                             math.cos(d / R) - math.sin(lat1) * math.sin(lat2))
+
+    lat2 = math.degrees(lat2)
+    lon2 = math.degrees(lon2)
+
+    print lat2, lon2
+
+    port = 6001 + i
+    print cmd.format(lat=lat2, lon=lon2, port=port)
+
+    lat = lat2
+    lon = lon2
+```
