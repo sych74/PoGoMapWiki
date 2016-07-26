@@ -36,14 +36,14 @@ OS X comes with some outdated Python packages.
 
 You will need to install `pip`, then upgrade a few python packages. 
 
-Instructions (run everything, each on its own line, ignore the `$` sign):
+Instructions (run everything, each on its own line):
 
 ```
-$ curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
-$ sudo python ./get-pip.py
-$ sudo -H easy_install --upgrade six
-$ sudo -H easy_install --upgrade setuptools
-$ sudo -H pip install -r requirements.txt
+curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
+sudo python ./get-pip.py
+sudo -H easy_install --upgrade six
+sudo -H easy_install --upgrade setuptools
+sudo -H pip install -r requirements.txt
 ```
 
 To install node and npm, download and install the installer from https://nodejs.org/en/download/.
