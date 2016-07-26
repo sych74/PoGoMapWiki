@@ -12,7 +12,7 @@ If you destroy your droplet (server) after use, you will not be billed anymore. 
 
 # Create an Account
 If you don't have an account, you can create one by using the following ref link:
-https://m.do.co/c/2d1757c3cb42
+[Create an Account at digitalocean.com](https://m.do.co/c/2d1757c3cb42)
 Since the account is created, you will get 10$ in credits as reward. 
 
 # Create a Server
@@ -35,7 +35,11 @@ runcmd:
   - nohup python runserver.py -a <AUTHMETHOD> -u <USERNAME> -p <PASSWORD> -l <LOCATION> -st 20 -H 0.0.0.0 -P 80 -k <GMAPKEY> &
 ```
 
+For more information about cloud-config see: [How to Use Cloud-Config for your initial Server Setup](https://www.digitalocean.com/community/tutorials/how-to-use-cloud-config-for-your-initial-server-setup)
+
 Note: Change the ```<VARIABLES>``` with your data.
+
+The master-branch will be used to install PokemonGo-Map
 
 After the server is created, you'll get an email with login information (ip address, root password).
 Type in the ip address in your browser to show up the PokemonGo-Map.
