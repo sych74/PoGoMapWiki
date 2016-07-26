@@ -1,10 +1,5 @@
-###First off, you will need to obtain https://github.com/AHAAAAAAA/PokemonGo-Map/pull/2153  
-
-If you dont know how to do that, sorry.. i forgot how myself (SOmeone tell them how! ((unless its merged by that point)) )  
-
-Alright, now that you have the Beehive, destroy everything except Location_Generator.py. Put this file into its own little folder, i named myne Beehive.  
-
-Next, Open a Terminal by Shift + Right Clicking inside the folder you just put the location.py into. Once the terminal opens, type in the following command:   
+Goto Tools folder - Hex-Beehive-Generator.
+Open a Terminal by Shift + Right Clicking inside the folder you just put the location.py into. Once the terminal opens, type in the following command:   
 
 python location_generator.py -st stepsize -lp ringsize -lat yourstartinglathere -lon yourstartinglonghere  
 
