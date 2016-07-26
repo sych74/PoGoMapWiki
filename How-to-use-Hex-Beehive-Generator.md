@@ -10,7 +10,7 @@ python location_generator.py -st 5 -lp 4 -lat 39.949157 -lon -75.165297
 
 the terminal will output a list of coordinates. Right click the terminal, and select Mark. copy the entire list of coordinates, and then head over to your saved copy of this page: https://docs.google.com/spreadsheets/d/1Uh4VITpCciSy8pRh9I7OZuNiM-LizyBJcU7WR8oi7yY/edit#gid=263691484  
 
-After you save the spreadsheet, you need to click the third page at the bottom  
+After you save the spreadsheet, you need to click the third page at the bottom, it is labeled Secondary Formatting
 
 We are going to paste all of the coords you just copied, into the first section of colored spaces, starting with the Top Pink one (ctrl v will do it automagically!)  
 
