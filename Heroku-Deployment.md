@@ -21,6 +21,7 @@ heroku config:set PASSWORD=insertyourpasswordhere
 heroku config:set LOCATION=insertyourlocationhere
 heroku config:set STEP_COUNT=insertyourstepcounthere
 heroku config:set GMAPS_KEY=inseryourgmapskeyhere
+heroku config:Set EXTRA_ARGS=optional_extra_arguments
 ```
 
 4. Push the project develop branch to the master branch on Heroku
