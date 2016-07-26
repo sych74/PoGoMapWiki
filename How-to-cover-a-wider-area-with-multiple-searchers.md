@@ -14,6 +14,8 @@ Link to figure out how to link all the hexagons together: http://goo.gl/X81fZq
 
 contributed by olathurl from discord
 
+## Here's a half-arsed implementation of reverse Haversine for you to finish off
+
 ```
 # coding: utf8
 
@@ -21,6 +23,7 @@ import math
 
 # Earth’s radius, sphere
 R = 6378.1
+
 cmd = "python runserver.py -ns -l '{lat} {lon}' --port {port}"
 
 # starting point
@@ -29,7 +32,7 @@ lat = sham[0]
 lon = sham[1]
 
 
-# offsets in meters
+# offsets in km
 d = 2.85
 brng = 90
 
