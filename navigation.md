@@ -1,13 +1,5 @@
 # PoGoMap Wiki
 
-[Project](https://jz6.github.io/PoGoMap/)
-
-[GitHub](https://github.com/AHAAAAAAA/PokemonGo-Map)
-
-[Download](https://github.com/AHAAAAAAA/PokemonGo-Map/releases)
-
-- - - -
-
 [Wiki Home](index.md)
 
 [Installation]()
@@ -43,6 +35,20 @@
 [Development]()
   
   * [Contributions](Development.md)
+  
+[More]()
+
+  * # Info
+  * [Official Homepage](https://jz6.github.io/PoGoMap)
+  * [Official GitHub](https://github.com/AHAAAAAAA/PokemonGo-Map)
+  - - - -
+  * # Downloads
+  * [Releases](https://github.com/AHAAAAAAA/PokemonGo-Map/releases)
+  * [Developer Beta](https://github.com/AHAAAAAAA/PokemonGo-Map/archive/develop.zip)
+  - - - -
+  * # Support
+  * [Discord Support](https://discord.gg/PWp2bAm)
+  * [GitHub Issues](https://github.com/AHAAAAAAA/PokemonGo-Map/issues)
   
 [gimmick:theme](flatly)
 
