@@ -40,6 +40,8 @@ This is the original build before the major rewrite. Will forever be home to the
 
 Follow the instructions in the [README.md file here](https://github.com/JonahAragon/PoGoMapWiki/tree/gh-pages#contributing) to learn how to edit and add new pages to this wiki.
 
+Contributions are via GitHub Pull Requests and are moderated and approved by [Jonah Aragon](https://github.com/JonahAragon) and other PoGoMap Developers.
+
 ### Contributing to the project
 
 *See [Development](Development.md)*
