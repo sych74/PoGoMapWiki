@@ -3,7 +3,7 @@
 [Wiki Home](index.md)
 
 [Installation]()
-    
+
   * # Basic Installation
   * [Installation](installation.md)
   * [Windows Installation](Windows-Installation-and-requirements.md)
@@ -13,9 +13,9 @@
   * [DigitalOcean](digitalocean.md)
   * [Heroku](heroku.md)
   * [Docker](docker.md)
-  
+
 [Configuration]()
-  
+
   * # Basic Configuration
   * [Usage](Usage.md)
   * [External Hosting](external.md)
@@ -26,16 +26,16 @@
   * [Using Multiple Searchers](workers.md)
   * [Using MySQL](mysql.md)
   * [Supervisord](supervisord-config-files.md)
-  
+
 [Help]()
-  
+
   * [FAQ](FAQ.md)
   * [Env. Variables Fix](Environment-Variables-fix.md)
 
 [Development]()
-  
+
   * [Contributions](Development.md)
-  
+
 [More]()
 
   * # Info
@@ -49,7 +49,10 @@
   * # Support
   * [Discord Support](https://discord.gg/PWp2bAm)
   * [GitHub Issues](https://github.com/AHAAAAAAA/PokemonGo-Map/issues)
-  
+
 [gimmick:theme](flatly)
 
 [gimmick:ForkMeOnGitHub (position: 'right', color: 'gray') ](https://www.github.com/JonahAragon/PoGoMapWiki)
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
