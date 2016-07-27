@@ -112,6 +112,7 @@ Note: These commands require git to be installed
 docker build -t pokemap https://github.com/AHAAAAAAA/PokemonGo-Map.git:develop
 
 docker run --name pokesql -e MYSQL_ROOT_PASSWORD=some-string -e MYSQL_DATABASE pokemap -d mysql:5.6  
+  
 _only pain comes from mysql5.7 and beyond_
 
 docker run --name mainmap -d --link pokesql pokemap --auth-service=ptc --username=youruser --password=yourpassword --db-type=mysql --db-host=pokemap --db-user=root --db-pass=some-string --gmaps-key=someapikey  
