@@ -59,17 +59,3 @@ Gists can be added by typing their numerical ID in the following format:
 Preview:
 
 [gimmick:gist](5641564)
-
-### YouTube
-
-YouTube links will automatically be turned into an embedded iFrame of the video simply by adding a link with no caption, like so:
-
-```
-[](https://www.youtube.com/watch?v=RMINSD7MmT4)
-```
-
-Preview:
-
-[](https://www.youtube.com/watch?v=RMINSD7MmT4)
-
-**Attention:** Please ensure you use HTTPS when linking YouTube videos, otherwise the wiki page will be broken.
