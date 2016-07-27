@@ -5,6 +5,7 @@ Pokemon Go Map is aiming to bring a live visualization map of nearby Pokémon, P
 Video Setup: 
 [Video Walkthrough](https://www.youtube.com/watch?v=RJKAulPCkRI)  
 [German Amazon EC2 Tutorial](https://www.youtube.com/watch?v=FxcVGrszl3I)
+[Quick and Simple DigitalOcean Installer](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/DigitalOcean-Deployment)
 
 # Basic Installation
 
