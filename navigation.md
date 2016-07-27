@@ -22,6 +22,7 @@
   - - - -
   * # Advanced Configuration
   * [Nginx with Let's Encrypt](nginx.md)
+  * [External Hosting with Cloudflare](cloudflare.md)
   * [Hex Beehive Generator](beehive.md)
   * [Using Multiple Searchers](workers.md)
   * [Using MySQL](mysql.md)
