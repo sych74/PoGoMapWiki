@@ -1,6 +1,6 @@
 ## Setting up
 
-**Note:** This guide runs on Windows.
+**Note:** This guide runs on Windows with Python and Git installed.
 
 First, make a copy of [this Google Sheets page](https://docs.google.com/spreadsheets/d/1Uh4VITpCciSy8pRh9I7OZuNiM-LizyBJcU7WR8oi7yY/edit#gid=263691484). We'll come back to that later.
 
