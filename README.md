@@ -1,10 +1,8 @@
 # PoGoMap Wiki
 
-Currently unofficial, forked from the official wiki. Hopefully can become the official wiki soon?
+The official wiki for the [Pokemon Go Map Project](https://github.com/AHAAAAAAA/PokemonGo-Map/). Replaces the old GitHub wiki we were using.
 
-## Visiting
-
-[Click here to open the wiki](https://www.jonaharagon.com/PoGoMapWiki/#!index.md)
+**[Click here to open the new wiki](https://www.jonaharagon.com/PoGoMapWiki/#!index.md)**
 
 ## Contributing
 
