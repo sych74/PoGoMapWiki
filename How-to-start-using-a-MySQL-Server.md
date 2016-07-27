@@ -115,8 +115,8 @@ docker run --name pokesql -e MYSQL_ROOT_PASSWORD=some-string -e MYSQL_DATABASE p
   
 _only pain comes from mysql5.7 and beyond_
 
-docker run --name mainmap -d --link pokesql pokemap --auth-service=ptc --username=youruser --password=yourpassword --db-type=mysql --db-host=pokesql --db-user=root --db-pass=some-string --gmaps-key=someapikey  
+docker run --name mainmap -d --link pokesql pokemap --auth-service=ptc --username=youruser --password=yourpassword --db-type=mysql --db-host=pokesql --db-name=pokemap --db-user=root --db-pass=some-string --gmaps-key=someapikey  
 _all optional arguments except db type omitted, including --location (you can set it in the web ui!)_
 
 _OPTIONAL: always scan Austin, TX (SQL benchmark?)_  
-docker run --name scanagent -d --link pokesql pokemap --no-server --auth-service=ptc --location="Austin, TX" --username=yourotheruser --password=yourotherpassword --db-type=mysql --db-host=pokemap --db-user=root --db-pass=some-string --gmaps-key=some-api-key
+docker run --name scanagent -d --link pokesql pokemap --no-server --auth-service=ptc --location="Austin, TX" --username=yourotheruser --password=yourotherpassword --db-type=mysql --db-host=pokemap --db-name=pokemap --db-user=root --db-pass=some-string --gmaps-key=some-api-key
