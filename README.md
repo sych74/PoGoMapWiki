@@ -8,7 +8,7 @@ Currently unofficial, forked from the official wiki. Hopefully can become the of
 
 ## Contributing
 
-Before you can change any files, you'll have to fork this repo.
+Before you can change any files, you'll have to [fork this repo](https://github.com/JonahAragon/PoGoMapWiki/fork).
 
 ### Adding new files
 
