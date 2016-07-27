@@ -65,9 +65,11 @@ Preview:
 YouTube links will automatically be turned into an embedded iFrame of the video simply by adding a link with no caption, like so:
 
 ```
-[](http://www.youtube.com/watch?v=RMINSD7MmT4)
+[](https://www.youtube.com/watch?v=RMINSD7MmT4)
 ```
 
 Preview:
 
-[](http://www.youtube.com/watch?v=RMINSD7MmT4)
+[](https://www.youtube.com/watch?v=RMINSD7MmT4)
+
+**Attention:** Please ensure you use HTTPS when linking YouTube videos, otherwise the wiki page will be broken.
