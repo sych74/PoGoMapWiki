@@ -45,3 +45,5 @@
   * [Contributions](Development.md)
   
 [gimmick:theme](flatly)
+
+[gimmick:ForkMeOnGitHub (position: 'right', color: 'gray') ](https://www.github.com/JonahAragon/PoGoMapWiki)
