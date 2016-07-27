@@ -12,12 +12,12 @@
 
 [Installation]()
     
-    * # Basic Installation
-    * [Installation](installation.md)
-    * [Windows Installation](Windows-Installation-and-requirements.md)
-    * [OS X Installation](Macintosh-Installation-and-requirements.md)
-    - - - -
-    * # Advanced
-    * [DigitalOcean](digitalocean.md)
-    * [Heroku](heroku.md)
-    * [Docker](docker.md)
+  * # Basic Installation
+  * [Installation](installation.md)
+  * [Windows Installation](Windows-Installation-and-requirements.md)
+  * [OS X Installation](Macintosh-Installation-and-requirements.md)
+  - - - -
+  * # Advanced
+  * [DigitalOcean](digitalocean.md)
+  * [Heroku](heroku.md)
+  * [Docker](docker.md)
