@@ -1,21 +1,40 @@
-Goto Tools folder - Hex-Beehive-Generator.
-Open a Terminal by Shift + Right Clicking inside the folder you just put the location.py into. Once the terminal opens, type in the following command:   
+## Setting up
 
+**Note:** This guide runs on Windows.
+
+First, make a copy of [this Google Sheets page](https://docs.google.com/spreadsheets/d/1Uh4VITpCciSy8pRh9I7OZuNiM-LizyBJcU7WR8oi7yY/edit#gid=263691484). We'll come back to that later.
+
+Now open a Terminal and clone the develop branch to a local directory:
+
+```
+git clone -b my-branch https://github.com/AHAAAAAAA/PokemonGo-Map.git
+```
+
+Go to Tools / Hex-Beehive-Generator:
+
+```
+cd PokemonGo-Map/Tools/Hex-Beehive-Generator/
+```
+
+Now generate coordinates with `location_generator.py`:
+
+```
 python location_generator.py -st stepsize -lp ringsize -lat yourstartinglathere -lon yourstartinglonghere  
+```
 
+For example:
 
-An example will look like this -  
-
+```
 python location_generator.py -st 5 -lp 4 -lat 39.949157 -lon -75.165297  
+```
 
-the terminal will output a list of coordinates. Right click the terminal, and select Mark. copy the entire list of coordinates, and then head over to your saved copy of this page: https://docs.google.com/spreadsheets/d/1Uh4VITpCciSy8pRh9I7OZuNiM-LizyBJcU7WR8oi7yY/edit#gid=263691484  
+Now the terminal will output a list of coordinates. Copy this entire list of coordinates, and then head over to your saved copy of the Google Sheets page we made earlier.  
 
 We are going to paste all of the coords you just copied, into the first section of colored spaces, starting with the Top Pink one (ctrl v will do it automagically!)  
 
-##Next, setting up your .Bat, to be able to use the formatting from that page:  
-  
-  
-  
+Now, make a file named `beehive.bat` with the following content:
+
+```  
 :: Set PythonPath to where your Python is installed, Typically C:\Python27\Python.exe  
 :: Set BranchPath to where you have the Pokemon Live Map folder  
 
@@ -58,12 +77,8 @@ ping 127.0.0.1 -n 1801 > nul
 
 goto start  
 pause  
-
-Copy and paste all of ^ into a .txt document, rename it to Dickbutt.bat
-
-
-
+```
 
 Now that we have our .bat created, We need to adjust the Arguments section on the spreadsheet. If you used the command for location_generator.py with -st set to 10, you need to change each line in the spreadsheet to -st 10 as well.
 
-we are then going to copy and paste the last column of the spreadsheet, based on colors, into the space above designated for the commands. File>Save, then double click the .bat to start the workers, in order.. Simple ^_^
+Now, we are going to copy and paste the last column of the spreadsheet, based on colors, into the space above in the .bat file designated for the commands. Save the file, then double click the .bat to start the workers!
