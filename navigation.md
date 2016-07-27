@@ -27,6 +27,7 @@
   * # Basic Configuration
   * [Usage](Usage.md)
   * [External Hosting](external.md)
+  - - - -
   * # Advanced Configuration
   * [Nginx with Let's Encrypt](nginx.md)
   * [Hex Beehive Generator](beehive.md)
