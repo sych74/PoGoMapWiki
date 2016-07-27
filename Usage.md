@@ -39,3 +39,4 @@ usage: `runserver.py [-h] [-se] [-a AUTH_SERVICE] [-u USERNAME] [-p PASSWORD]
 `-d` - Debug Mode.  
 `-D DB`  - Change the name of the database file, default is `pogom.db`.  
 `-t` - Number of threads, default is set to 1.  
+`-cd` - Clears pogom.db.
