@@ -1,7 +1,7 @@
 # How to start using a MySQL server
 **This is a guide for windows only currently.**  
 **Preliminary Linux (Debian) instructions below (VII)**
-**Preliminary Docker (modern Linux OS w/ Docker & git installed) instructions below (VIII)***
+**Preliminary Docker (modern Linux OS w/ Docker & git installed) instructions below (VIII)**
 
 ** Updated for commit [775982e](https://github.com/AHAAAAAAA/PokemonGo-Map/commit/775982ea5683ae186124ae96e5561519679ddf1a) **
 
