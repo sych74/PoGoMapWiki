@@ -1,60 +1,60 @@
-##How to make your map externally visible
-A lot of people ask how you can make your map externally visible, so other people can view it, or so you can visit it from another location.
+# Making your map available outside your WiFi.
 
-**THIS GUIDE IS NOT UNIVERSAL.** Some steps in this guide depend on your router, but most routers have a lot in common, so you should be fine.
+## Introduction
 
-##Lets start!
-We are not responsible for any damage that might occur. You should take security measures yourself.
+This guide will show you how to make your map available on the internet, including yourself on the go. These instructions should **not** be used on a server you are giving out to other people for use, as it is not the most secure option available. **We are not responsible for damage caused to your software, equipment, or anything else, proceed at your own risk.**
 
-1. First, we are going to find some basic information. Open the Command Prompt by hitting Windows + R and typing "cmd"
-<p align="center">
-<img src="https://i.imgur.com/5WeUnTy.png">
-</p>
-2. Enter "ipconfig" in the command prompt. Now you will see a lot of information appearing, this information WILL PROBABLY BE DIFFERENT IN YOUR CASE!!!
-<p align="center">
-<img src="https://i.imgur.com/O9LHEQv.png">
-</p>
-3. Now, search the internet adapter that you are currently using to connect to the network, and note these values.
-<p align="center">
-<img src="https://i.imgur.com/lzumhC2.png">
-</p>
-4. In your browser, go to the IP Address of your router that you found in the previous step, and log in. If you don't know them already, the login information is usually on the bottom of your router, unless they've already been changed.
-<p>
-<img src="https://i.imgur.com/zVyGzu0.png">
-</p>
-5. Find the Port Forwarding category in your router's control panel, and navigate here. (For me, "Application" -> "Port forwarding")
-<p>
-<img src="https://i.imgur.com/dsr3D5c.png">
-</p>
-6. Your router may directly allow you to enter port here, mine doesn't so I am going to click on "Click here to add an application."
-<p>
-<img src="https://i.imgur.com/klEmgN4.png">
-</p>
-7. Now we are on another screen, here we are going to enter the details. Pick a name which you can remember, and set the protocol to TCP, because PoGoMap only uses the TCP protocol.
-<p>
-<img src="https://i.imgur.com/CDlY4hX.png">
-</p>
-8. The port selection is divided in 2 parts, mapping and normal. To make it simple, we are going to enter the same values here. the start and end mark which ports are being forwarded. If you enter 420 in start, and 423 in end, port 420, 421, 422 and 423 will be forwarded.
-The ports you want to use don't matter. I would recommend using between 5000 and 6000. (but this doesn't matter!) I am using these for demonstrating.
-<p>
-<img src="https://i.imgur.com/5zz30vv.png">
-</p>
-9. Again, make sure that the mapping start and end port are the same. I will now hit "Add". My router now shows me an little table of my changes, I can remove or edit them if I made an mistake.
-<p>
-<img src="https://i.imgur.com/esQHvdr.png">
-</p>
-10. Now, I will go back to the previous screen and select the application I just created.
-<p>
-<img src="https://i.imgur.com/S2AKuW7.png">
-</p>
-11. In the "LAN Host IP Address" box I will enter the IP address of my computer, that we found in a previous step, and click "Add". Now you I see the application appear in the table, and is my port forwarded application!
-<p>
-<img src="https://i.imgur.com/ligxZWc.png">
-</p>
-12. Your port is now forwarded to the map! do not forget to start the server with `-P *the port you forwarded* -H 0.0.0.0`. In my case:
-<p>
-<img src="https://i.imgur.com/en77ozU.png">
-</p>
+This guide will most likely not match your router exactly, as different manufacturers have different software and configuration. This is meant to be a general guide as many routers have a lot in common, but if you can't follow these following instructions, try Googling something like "Port forwarding [*MY ROUTER MODEL*]"
 
-Credit: Langoor2
+## Gathering Information
 
+First we should find some information about your network. Press `Win`+`R` and type "cmd" on Windows to open a Command Prompt. On Linux and OS X, open a Terminal application.
+
+On Windows, enter the following command:
+
+```
+ipconfig
+```
+
+On Linux and OS X, enter:
+
+```
+ifconfig
+```
+
+A lot of information will appear on your screen, but these two lines are what we're looking for:
+
+```
+IPv4 Address. . . . . . . . . . . : 192.168.29.22
+Default Gateway . . . . . . . . . : 192.168.29.1
+```
+
+Obviously, your numbers (IP Addresses) will most likely look different from mine. Jot those two down so we can use them later.
+
+Let's also find your Public IP address, browse to [mxtoolbox.com/whatismyip](http://mxtoolbox.com/whatismyip/) and note the IP Address it gives you there.
+
+## Port Forwarding
+
+Open an internet browser and type in the "Default Gateway" IP address we just found in the last step. It may ask you to login at this point, enter the login credentials for your router. It is important to note that this generally isn't your wifi password, if you don't know your router login credentials, they are usually on the bottom of the router unless they've already been changed.
+
+![](https://i.imgur.com/G41NkG0.png)
+
+Now you should be on the homepage of your router's configuration. Find the Port Forwarding section of your router. On mine it was under "WAN" > "Virtual Server / Port Forwarding" but yours may differ.
+
+![](https://i.imgur.com/Fs3cov4.png)
+
+Enter the following information on that screen. Some routers may make you press a menu before you can see these text boxes:
+
+![](https://i.imgur.com/SfiN7Wd.png)
+
+Replace "Local IP" (sometimes called "Internal IP") with the IPv4 Address we found in the first step of this guide. Both port boxes should have the same number, 5000. If you only have one box for ports just enter "5000" in that one. Click the Add button to save your settings. If you have an option to choose from UDP or TDP, choose TDP.
+
+## Finishing Up
+
+Your port should now be added! Next time you start your server, add `-H 0.0.0.0` to the list of flags so it's accessible from the internet!
+
+## Connecting
+
+In any web browser not connected to your wifi, your phone for instance, browse to `http://11.22.33.44:5000/` **replacing** 11.22.33.44 with your external IP address, and you should be set!
+
+**Note:** It is a known bug that Safari on iOS may not be able to load the map, if this happens to you download Chrome from the app store.
