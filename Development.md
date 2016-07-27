@@ -39,7 +39,7 @@ on the command-line. This runs a default grunt "task" that performs a number of 
 
 ### grunt-watch
 
-We've configured Grunt to run a "watch" task by default. Grunt will sit in the background continually re-running its tasks any time a Javascript or CSS file changes. You can leave this Watch task running while you code, to avoid the need to continually re-run Grunt every time you make a change
+We've configured Grunt to run a "watch" task by default. Grunt will sit in the background continually re-running its tasks any time a Javascript or CSS file changes. You can leave this Watch task running while you code, to avoid the need to continually re-run Grunt every time you make a change.  You can stop grunt-watch with CTRL+C.
 
 ##The "/dist" directory
 
