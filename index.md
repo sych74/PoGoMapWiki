@@ -34,6 +34,16 @@ This is the original build before the major rewrite. Will forever be home to the
 
 **[Download](https://github.com/AHAAAAAAA/PokemonGo-Map/archive/v1.0.0.zip)**
 
+## Contributing
+
+### Contributing to this Wiki
+
+Follow the instructions in the [README.md file here](https://github.com/JonahAragon/PoGoMapWiki/tree/gh-pages#contributing) to learn how to edit and add new pages to this wiki.
+
+### Contributing to the project
+
+*See [Development](Development.md)*
+
 ## Other Information
 
 ### Project refactor
