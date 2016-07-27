@@ -57,7 +57,7 @@ If you're trying to start a fresh database you'll need to execute `DROP DATABASE
         - Change "db-user:" to "root"
         - Change "db-pass" to the password you chose in step 5a of section II, or leave it blank if you chose to roll with no password.
     - **Search Settings:** You only need to change this if you want to only run one location, or wish to disable gyms/pokemon/pokestops for all locations, or to have a universal thread count, scan delay, or step limit. I chose to not edit anything in the new config.ini.
-    - **Misc:** This only has one setting and that's the google maps api key. If you don't have one, or don't know what that is please see [this](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Google-Maps-API:-a-brief-guide-to-your-own-key) wiki page for the PokemonGo-Map project. 
+    - **Misc:** This only has one setting and that's the google maps api key. If you don't have one, or don't know what that is please see [this](GoogleMaps.md) wiki page for the PokemonGo-Map project. 
         - Change "gmaps-key:" to contain your google maps API key.
     - **Webserver Settings:** This is how your server knows where to communicate.
         - Change "host" to the host address you should already have setup.

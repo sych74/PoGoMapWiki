@@ -1,8 +1,13 @@
-usage: `runserver.py [-h] [-se] [-a AUTH_SERVICE] [-u USERNAME] [-p PASSWORD]
+# Command Line Usage and Arguments
+
+
+```
+runserver.py [-h] [-se] [-a AUTH_SERVICE] [-u USERNAME] [-p PASSWORD]
                      [-l LOCATION] [-c] [-fl] [-k GMAPS_KEY]
                      [-H HOST] [-P PORT] [-m] [-ns] [-C]
                      [-st STEP_LIMIT] [-sd SCAN_DELAY] [-np] [-ng] [-nk]
-                     [-dc] [-L LOCALE] [-d] [-D DB] [-t NUM_THREADS] `
+                     [-dc] [-L LOCALE] [-d] [-D DB] [-t NUM_THREADS]
+```
 
 ## Arguments
 

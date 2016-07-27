@@ -3,7 +3,7 @@ If you do not want to expose pokemongo-map to the web directly or you want to pl
 Assuming the following:
 
 * You are running pokemongo-map on the default port 5000
-* You've already made your machine available externally (such as with [ngrok](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/How-to-make-your-map-available-externally:-NGROK-Method))
+* You've already made your machine available externally (for example, [port forwarding](external.md))
 
 1. Install nginx (I'm not walking you through that, google will assist) - http://nginx.org/en/linux_packages.html
 2. In /etc/nginx/nginx.conf add the following before the last `}`
