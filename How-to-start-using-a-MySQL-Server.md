@@ -105,17 +105,17 @@ db-name: pokemongomapdb              # required for mysql
 db-user: YourUser              # required for mysql
 db-pass: YourPW              # required for mysql
 ```
-## VIII. Docker Settings w/ Let's Encrypt
+## VIII. Docker Settings w/ Let's Encrypt  
 Note: These are preliminary until better Docker support in the official container hosted on Docker Hub  
 Note: These commands require git to be installed
 
 docker build -t pokemap https://github.com/AHAAAAAAA/PokemonGo-Map.git:develop
 
-docker run --name pokesql -e MYSQL_ROOT_PASSWORD=some-string -e MYSQL_DATABASE pokemap -d mysql:5.6
+docker run --name pokesql -e MYSQL_ROOT_PASSWORD=some-string -e MYSQL_DATABASE pokemap -d mysql:5.6  
 _only pain comes from mysql5.7 and beyond_
 
-docker run --name mainmap -d --link pokesql pokemap --auth-service=ptc --username=youruser --password=yourpassword --db-type=mysql --db-host=pokemap --db-user=root --db-pass=some-string --gmaps-key=someapikey
+docker run --name mainmap -d --link pokesql pokemap --auth-service=ptc --username=youruser --password=yourpassword --db-type=mysql --db-host=pokemap --db-user=root --db-pass=some-string --gmaps-key=someapikey  
 _all optional arguments except db type omitted, including --location (you can set it in the web ui!)_
 
-_OPTIONAL: always scan Austin, TX (SQL benchmark?)_
+_OPTIONAL: always scan Austin, TX (SQL benchmark?)_  
 docker run --name scanagent -d --link pokesql pokemap --no-server --auth-service=ptc --location="Austin, TX" --username=yourotheruser --password=yourotherpassword --db-type=mysql --db-host=pokemap --db-user=root --db-pass=some-string --gmaps-key=some-api-key
