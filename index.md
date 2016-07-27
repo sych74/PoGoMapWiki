@@ -1,5 +1,7 @@
 # Pokemon Go Map Wiki
 
+## About Pokemon Go Map
+
 [PoGoMap](https://jz6.github.io/PoGoMap/) is aiming to bring a live visualization map of nearby Pokémon, Pokéstops and gyms in a form of a web-app as well as native phone applications. It can be self hosted and [installed](installation.md) on Windows, Mac, and Linux, with Android and iOS ports currently in development.
 
 **[Demo](http://pkmgomap.com/)**
