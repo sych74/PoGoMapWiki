@@ -1,6 +1,6 @@
 ## Prerequisites
 
-- [A DigitalOcean account](https://m.do.co/c/fb6730f5bb99)
+- [A DigitalOcean account](https://m.do.co/c/fb6730f5bb99) - Using this link will grant $10 in credit, enough for running your server for up to 2 months.
 - [A Google Maps API key](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki/Google-Maps-API:-a-brief-guide-to-your-own-key)
 - [A new Pokemon Club account](https://club.pokemon.com/us/pokemon-trainer-club/sign-up/)
 
