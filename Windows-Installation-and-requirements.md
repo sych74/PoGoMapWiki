@@ -1,40 +1,35 @@
+# Windows Installation
+
 In order to run the project, you will need Python, pip and the project dependencies.
-Version 2.7 is what we usually test against. You can use 3.x but no support will be given. 
+Version 2.7 is what we usually test against. You can use 3.x but no support will be given.
 
-### PokemonGo-Map: Windows Installation
+## Prerequisites
 
----
+  - [git for windows](https://git-for-windows.github.io/)
+  - [Python 2.7.1.2](https://www.python.org/downloads/release/python-2712/)
 
-#### Prerequisites for this guide
-- [ ] [git for windows](https://git-for-windows.github.io/)
-- [ ] [Python 2.7.1.2](https://www.python.org/downloads/release/python-2712/)
-
----
-
-#### Known Issues
+## Known Issues
 
 - If you are having Issues with Step 6 and did not install Python on your C: drive, try uninstalling and reinstalling Python on C: before opening an issue (thanks @[RicarFox](https://github.com/RicarFox/)).
 
----
-
-### Step 1: Install Git for Windows
+## Step 1: Install Git for Windows
 Download Git for Windows from the link above and install it. You will be fine with all recommended options during the setup.
 
 ![Installing Git...](https://i.imgur.com/BRCsqTv.png)
 
-### Step 2: Install Python
+## Step 2: Install Python
 
-> **Note**: If you already have another version of Python installed, you probably want to uninstall that version and install 2.7.1.2. I did not test this setup with any other version.
+**Note**: If you already have another version of Python installed, you probably want to uninstall that version and install 2.7.1.2. I did not test this setup with any other version.
 
 Download Python 2.7.1.2 either as the 64bit or the 32bit version from the link above. **Make sure** to add Python to PATH during the setup (see screenshot)!
 
 ![Python](https://i.imgur.com/BagNkfw.png)
 
-### Step 3: Clone PokemonGo-Map
+## Step 3: Clone PokemonGo-Map
 
 Navigate to the folder you want to download PokemonGo-Map to. For this guide we'll be using the Downloads folder. Rightclick inside the folder and select *Git Bash Here* from the context menu.
 
-![Git Bash Here](http://i.imgur.com/oTkVzsB.png)
+![Git Bash Here](https://i.imgur.com/oTkVzsB.png)
 
 You can copy the following command and paste it with a rightclick into the shell window that has opened:
 
@@ -44,23 +39,23 @@ You can copy the following command and paste it with a rightclick into the shell
 
 Now we have all PokemonGo-Map files inside our Downloads folder.
 
-### Step 4: Get your own Google Maps API Key
+## Step 4: Get your own Google Maps API Key
 
 Go to [this page](https://console.developers.google.com/flows/enableapi?apiid=maps_backend,geocoding_backend,directions_backend,distance_matrix_backend,elevation_backend,places_backend&keyType=CLIENT_SIDE&reusekey=true) to get your own Google Maps API Key. If you do not get your own API Key, you'll very likely run into an error telling you that you reached the daily request limit.
 
 If you got your own API Key, open the *credentials.json* file inside the *PokemonGo-Map* folder. You can edit that file with Windows' built in text editor. Now replace the API Key in line 6 with the one you got from that Google website.
 
-![API Key](http://i.imgur.com/IjD509D.png)
+![API Key](https://i.imgur.com/IjD509D.png)
 
-### Step 5: Fix Python Path
+## Step 5: Fix Python Path
 
 > This step is not needed on every system, but it's probably good to check if everything is set up correctly.
 
 First things first. Press `WindowsKey + PAUSE` on your keyboard and select *Advanced System Settings* from the left side menu. At the bottom of that windows click *Environment Variables*. In my case the Python value for the Path variable was set to `C:\Python27\;` which is wrong. You have to remove final backslash if that's the case for you too. If you're having issues with this feel free to open an Issue.
 
-![Variable issue](http://i.imgur.com/2LeOviQ.png)  
+![Variable issue](https://i.imgur.com/2LeOviQ.png)  
 
-### Step 6: Setup PokemonGo-Map
+## Step 6: Setup PokemonGo-Map
 
 That was the hard part. Now navigate to the PokemonGo-Map folder and *Git Bash Here*, like in Step 3. Now paste this command:
 
@@ -68,7 +63,7 @@ That was the hard part. Now navigate to the PokemonGo-Map folder and *Git Bash H
 
 ![Requirements](https://i.imgur.com/6p6uzHB.png)
 
-### Step 7: Start PokemonGo-Map
+## Step 7: Start PokemonGo-Map
 
 Now we are ready to start the map.
 
@@ -91,67 +86,13 @@ The final command should look like this:
 
 Hit enter and view your map in all it's glory at http://127.0.0.1:5000/. Done!
 
-![Map](http://i.imgur.com/EBkRhvZ.png)
+![Map](https://i.imgur.com/EBkRhvZ.png)
 
 ---
 
-### Bonus: How to update PokemonGo-Map
+## Bonus: How to update PokemonGo-Map
 Since PokemonGo-Map is under active development and gets a lot of updates, you probably want to get all the latest features and bug fixes. You can see the latest updates (called commits) [here](https://github.com/AHAAAAAAA/PokemonGo-Map/commits/master). To update your copy, *Git Bash here* from the PokemonGo-Map folder, paste this command and hit enter:
 
 `git pull origin master`
 
 Now repeat Step 7 to restart your map.
-
-
-### Ubuntu or Debian
-
-You can install Python and Pip on Ubuntu by running the following command:
-
-```
-sudo apt-get install python python-pip
-```
-
-## Credentials and Downloading
-
-Create a Pokemon Club account [on their official website] to be used by the program to search for Pokemon. This generally shouldn't be the same as your main Trainer account you personally use. As of 7/21/2016 this page is unavailable most of the time, refresh the page every 5-10 minutes and it should allow signups eventually.
-
-Then, download one of the following branches below:
-
-- [Download master](https://github.com/AHAAAAAAA/PokemonGo-Map/archive/master.zip) (Stable builds)
-- [Download dev branch](https://github.com/AHAAAAAAA/PokemonGo-Map/archive/develop.zip) (Active development)
-
-The dev branch will have latest features from the development team, however it may be unstable at some times.
-
-Extract this zip file to any location.
-
-## Install Dependencies
-
-Now, open a Terminal/Command Line (`Win`+`R` and `cmd` on Windows) and `cd` to the folder you extracted the zip file to.
-
-```
-cd some/directory/
-```
-
-In Windows you can also right click within the folder and select "Open Command Window Here."
-
-Then enter the following:
-
-```
-pip install -r requirements.txt
-```
-
-## Running
-
-To start the server, run the following command:
-
-```
-python example.py -a ptc -u [USERNAME] -p [PASSWORD] -l "[LOCATION]" -st 10
-```
-
-Replaing [USERNAME] and [PASSWORD] with the Pokemon Club credentials you created previously, and [LOCATION] with any location, for example `Washington, D.C` or latitude and longitude coordinates, such as `38.9072 77.0369`.
-
-Additionally, you can change the `10` after `-st` to any number. This number indicates the number of steps away from your location it should look, higher numbers being farther.
-
-## Accessing
-
-Open your browser to [`http://localhost:5000`](http://localhost:5000) and keep refreshing as it loads more Pokemon (auto refresh is not implemented yet).
