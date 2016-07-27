@@ -1,10 +1,15 @@
 # PoGoMap Wiki
 
 [Project](https://jz6.github.io/PoGoMap/)
+
 [GitHub](https://github.com/AHAAAAAAA/PokemonGo-Map)
+
 [Download](https://github.com/AHAAAAAAA/PokemonGo-Map/releases)
+
 - - - -
+
 [Wiki Home](index.md)
+
 [Installation]()
     
     * # Basic Installation
