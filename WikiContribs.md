@@ -60,27 +60,7 @@ Preview:
 
 [gimmick:gist](5641564)
 
-### Google Maps
-
-Google Maps can be added by entering an address or location in the following format:
-
-```
-[gimmick:googlemaps](Madison Square Garden, NY)
-
-[gimmick:googlemaps(maptype: 'terrain', zoom: 9, marker: 'false')](Eiffel Tower, Paris)
-
-[gimmick:googlemaps(maptype: 'satellite', zoom: 17)](Colloseum, Rome, Italy)
-```
-
-Preview:
-
-[gimmick:googlemaps](Madison Square Garden, NY)
-
-[gimmick:googlemaps(maptype: 'terrain', zoom: 9, marker: 'false')](Eiffel Tower, Paris)
-
-[gimmick:googlemaps(maptype: 'satellite', zoom: 17)](Colloseum, Rome, Italy)
-
-### youtube
+### YouTube
 
 YouTube links will automatically be turned into an embedded iFrame of the video simply by adding a link with no caption, like so:
 
