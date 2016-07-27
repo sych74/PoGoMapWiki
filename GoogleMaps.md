@@ -1,10 +1,13 @@
-##How to get your own Google Maps key and use it for this project
+#How to get your own Google Maps key and use it for this project
+
 This project uses Google Maps. There's one map coupled with the project, but as it gets more popular we'll definitely hit the rate-limit making the map unusable.
-### Often this error is encounterd
+
+## Common error
 
 ![Map Error](http://i.imgur.com/EOdAqUo.png)
 
-### How to fix this
+## How to fix
+
 1. Go to [Google API Console](https://console.developers.google.com/)
 2. If it's the first time, click 'Next' on a bunch of pop-ups or just click somewhere where the pop-ups aren't
 3. Create Credentials
@@ -21,7 +24,7 @@ This project uses Google Maps. There's one map coupled with the project, but as 
    - Click Create --> API
    - Choose 'Browser Key'
    - Click 'Create' and then copy the API Key somewhere
-   
+
    ![API Browser Key](http://i.imgur.com/csEFWKd.png)
 
    ![API Browser Key](http://i.imgur.com/6upJVIr.png)
@@ -37,7 +40,7 @@ This project uses Google Maps. There's one map coupled with the project, but as 
      - Choose Google Places API Web Service
      - Click 'ENABLE'
 
-### Configuration of API Key
+## Configuration of API Key
 1. Navigate to your pokemon map directory, and inside the config folder you will find credentials.json.
 
   ![Map Directory](http://i.imgur.com/zcOShnQ.png)
