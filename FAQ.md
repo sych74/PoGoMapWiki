@@ -2,22 +2,22 @@
 
 ## Can I sign in with Google?
 
-Yes you can! Pass the flag `-a google` to use Google authentication. 
+Yes you can! Pass the flag `-a google` (replacing `-a ptc`) to use Google authentication. 
 
 If you happen to have 2-step verification enabled for your Google account you will need to supply an [app password](https://support.google.com/accounts/answer/185833?hl=en) for your password instead of your normal login password.
 
 
-## ... expected one argument.
+## ...expected one argument.
 
-The -dp, -dg -dl, -i, -o and -ar parameters are no longer needed. Remove them from your query
+The -dp, -dg -dl, -i, -o and -ar parameters are no longer needed. Remove them from your query.
 
 ## How do I setup port forwarding?
 
 [See this helpful guide](external.md)
 
-## ["It's acting like the location flag is missing."](http://imgur.com/a/tM3BN)
+## "It's acting like the location flag is missing.
 
-`-l`, never forget
+`-l`, never forget.
 
 ## I'm getting this error...
 
