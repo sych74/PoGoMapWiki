@@ -12,6 +12,7 @@
   * # Advanced
   * [DigitalOcean](digitalocean.md)
   * [Heroku](heroku.md)
+  * [Bluemix](bluemix.md)
   * [Docker](docker.md)
 
 [Configuration]()

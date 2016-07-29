@@ -9,7 +9,9 @@ If any of the following guides apply to you, click those instead:
   * [MAC INSTRUCTIONS](Macintosh-Installation-and-requirements.md)
 
   * [HEROKU INSTRUCTIONS](heroku.md)
-  
+
+  * [BLUEMIX INSTRUCTIONS](bluemix.md)
+
   * [DigitalOcean Instructions](digitalocean.md)
 
 ## Prerequisites
