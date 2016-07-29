@@ -15,9 +15,11 @@ include conf.d/pokemongo-map.conf;
 3. Create a file /etc/nginx/conf.d/pokemongo-map.conf and place the following in it:
 
 ```
+    server {
         location /go/ {
            proxy_pass http://127.0.0.1:5000/;
         }
+    }
 ```
 
 You can now access it by http://yourip/go
