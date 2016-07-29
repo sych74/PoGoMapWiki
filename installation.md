@@ -18,12 +18,20 @@ If any of the following guides apply to you, click those instead:
 
 Installation will require Python 2.7 and Pip. If you already have these you can skip to [installation](#install-dependencies). Python 3 is not supported at all.
 
-### Ubuntu or Debian
+### Ubuntu
 
 You can install the required packages on Ubuntu by running the following command:
 
 ```
 sudo apt-get install python python-pip nodejs npm
+```
+
+### Debian
+
+You can install the required packages on Debian by running the following command:
+
+```
+sudo apt-get install python python-pip nodejs npm nodejs-legacy
 ```
 
 ### Red Hat or CentOs or Fedora
