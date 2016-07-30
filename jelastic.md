@@ -18,7 +18,7 @@ Here, the next data should be specified:
 - **Company** - your company name
 - **Service provider** - choose the desired hosting service provider (you can also use [Jelastic Cloud Union](https://jelastic.cloud/) for a simple comparison of the presented here vendors)
 
- > **Tip:** If you are already registered at any of the listed Jelastic Platforms, you can specify email of your existing account and proceed directly to the ***4th*** step of this instruction.
+> **Tip:** If you are already registered at any of the listed Jelastic Platforms, you can specify email of your existing account and proceed directly to the ***4th*** step of this instruction.
 
 Click the **Install** button below when ready.
 
