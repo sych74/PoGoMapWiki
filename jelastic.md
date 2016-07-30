@@ -67,7 +67,7 @@ Finish with the **Install** button.
 
 7. That’s all! Map is already working and showing all the nearby pokemons, gyms and pokestops. Clicking on a particular pokemon will show the time it is going to disappear.
 
-![image]()
+![image](https://github.com/sych74/PokemonGo-Map-in-Cloud/raw/master/images/wiki/map.png)
 
 If needed, you can adjust some **Options**, available with the same-named button in the top left corner - e.g. change your location, select items to be displayed, enable/disable notifications about particular pokemons appearance, etc.
 
