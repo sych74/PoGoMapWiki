@@ -7,6 +7,7 @@ Version 2.7 is what we usually test against. You can use 3.x but no support will
 
   - [git for windows](https://git-for-windows.github.io/)
   - [Python 2.7.1.2](https://www.python.org/downloads/release/python-2712/)
+  - [Microsoft Visual C++ Compiler for Python 2.7](https://www.microsoft.com/en-us/download/details.aspx?id=44266)
 
 ## Known Issues
 
