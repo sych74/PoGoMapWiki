@@ -41,10 +41,5 @@ This project uses Google Maps. There's one map coupled with the project, but as 
      - Click 'ENABLE'
 
 ## Configuration of API Key
-1. Navigate to your pokemon map directory, and inside the config folder you will find credentials.json.
-
-  ![Map Directory](http://i.imgur.com/zcOShnQ.png)
-
+1. Navigate to your pokemon map directory, and inside the config folder you will find config.ini.
 2. Add your previously created Google API key in this file, save it, and re-run the server! it should be working now! If you see an error, make sure you actually enabled the Javascript API in Step 5.
-
-  ![credentials.json](http://i.imgur.com/H4QjVi1.png)
