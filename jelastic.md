@@ -43,7 +43,7 @@ First of all, you need to select the desired **account type**:
 
 - ***Pokemon Club Account*** - also you can launch directly to your Pokemon Club account with the corresponding credentials (whilst considering that *Pkmn Club User* is your nickname in the game **but not your email address**)
 
-**Note:** If you’ve decided to create a [new Pokemon Club account](https://club.pokemon.com/us/pokemon-trainer-club/sign-up/), please be aware that their site can be occasionally unavailable due to high load, so just wait for a couple of minutes and try to reload the page.
+> **Note:** If you’ve decided to create a [new Pokemon Club account](https://club.pokemon.com/us/pokemon-trainer-club/sign-up/), please be aware that their site can be occasionally unavailable due to high load, so just wait for a couple of minutes and try to reload the page.
 
 ![image](https://github.com/sych74/PokemonGo-Map-in-Cloud/raw/master/images/wiki/pkmnUser.png)
 
