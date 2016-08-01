@@ -10,6 +10,7 @@
   * [OS X Installation](Macintosh-Installation-and-requirements.md)
   - - - -
   * # Advanced
+  * [Jelastic](jelastic.md)
   * [DigitalOcean](digitalocean.md)
   * [Heroku](heroku.md)
   * [Bluemix](bluemix.md)
