@@ -8,7 +8,7 @@ Click on the button above to quickly deploy **PokemonGo Map** into Jelastic Clou
 
 ## Deployment Guide
 
-1. After clicking the Deploy to Jelastic button, you’ll be shown a separate page with the following installation widget:
+**Step 1.** After clicking the Deploy to Jelastic button, you’ll be shown a separate page with the following installation widget:
  
 ![image](https://github.com/sych74/PokemonGo-Map-in-Cloud/raw/master/images/wiki/signup.png)
 
@@ -22,17 +22,17 @@ Here, the next data should be specified:
 
 Click the **Install** button below when ready.
 
-2. Then move to the specified email address inbox, open the newly received letter from Jelastic (usually titled as *Confirmation of application deploy*) and follow the link inside to confirm your account creation and complete PokemonGo Map installation.
+**Step 2.**  Then move to the specified email address inbox, open the newly received letter from Jelastic (usually titled as *Confirmation of application deploy*) and follow the link inside to confirm your account creation and complete PokemonGo Map installation.
 
 ![image](https://github.com/sych74/PokemonGo-Map-in-Cloud/raw/master/images/wiki/email.png)
 
 > **Tip:** In case you’ve also got an additional letter with automatically generated account credentials, just skip the next guide step and proceed to the ***5th*** one.
 
-3. Depending on the settings of the chosen service provider, you may be required to verify your account with either [captcha](https://docs.jelastic.com/account#captcha) or [mobile number](https://docs.jelastic.com/account#sms).
+**Step 3.** Depending on the settings of the chosen service provider, you may be required to verify your account with either [captcha](https://docs.jelastic.com/account#captcha) or [mobile number](https://docs.jelastic.com/account#sms).
 
 ![image](https://github.com/sych74/PokemonGo-Map-in-Cloud/raw/master/images/wiki/sms.png)
 
-4. After you are redirected and automatically logged in the dashboard, you’ll see the ***PokemonGo Map*** installation frame:
+**Step 4.** After you are redirected and automatically logged in the dashboard, you’ll see the ***PokemonGo Map*** installation frame:
 
 ![image](https://github.com/sych74/PokemonGo-Map-in-Cloud/raw/master/images/wiki/installFrame.png)
 
@@ -50,7 +50,7 @@ First of all, you need to select the desired **account type**:
 > **Tip:** Neither *Google* not *Pkmn Club* account you define here shouldn’t be obligatory the one you actually use for the game - any existing account is suitable ( i.e. even if it has never been connected to the PokemonGo app).
 Generally, it’s recommended to use a separate account for the Map applet.
 
-5. Then, fill in the rest of the fields:
+**Step 5.** Then, fill in the rest of the fields:
 
 - **Your Location** - either address or latitude/longitude coordinates of your current location (can be determined with [Google Maps](https://www.google.com.ua/maps)), e.g. *Washington, D.C* or *38.9072 77.0369*
 - **Steps Away** - defines the distance from your current location for the map to show the PokemonGo objects (the higher this number is, the greater radius you’ll explore)
@@ -61,11 +61,11 @@ Generally, it’s recommended to use a separate account for the Map applet.
 
 Finish with the **Install** button.
 
-6. Wait a while for the installation to be completed and **Open** your map in **browser**.
+**Step 6.** Wait a while for the installation to be completed and **Open** your map in **browser**.
 
 ![image](https://github.com/sych74/PokemonGo-Map-in-Cloud/raw/master/images/wiki/toBrowser.png)
 
-7. That’s all! Map is already working and showing all the nearby pokemons, gyms and pokestops. Clicking on a particular pokemon will show the time it is going to disappear.
+**Step 7.** That’s all! Map is already working and showing all the nearby pokemons, gyms and pokestops. Clicking on a particular pokemon will show the time it is going to disappear.
 
 ![image](https://github.com/sych74/PokemonGo-Map-in-Cloud/raw/master/images/wiki/map.png)
 
