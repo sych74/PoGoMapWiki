@@ -1,7 +1,6 @@
 # Windows Installation
 
 In order to run the project, you will need Python, pip and the project dependencies.
-Version 2.7 is what we usually test against. You can use 3.x but no support will be given.
 
 ## Prerequisites
 
@@ -62,6 +61,17 @@ That was the hard part. Now navigate to the PokemonGo-Map folder and *Git Bash H
 
 ![Requirements](https://i.imgur.com/6p6uzHB.png)
 
+###Develop branch only instructions
+
+In order for the map to load on the develop branch, there are some additions requirements.
+
+1. Install node.js. That will install the `npm` command.
+  -[Node.js 6.3.1] (https://nodejs.org/dist/v6.3.1/node-v6.3.1-x64.msi)
+2. Open an *admin* command prompt and type `npm install -g grunt-cli` . This installs Grunt's command line interface (CLI) globally.
+3. Once grunt is installed, run it by typing `npm install`. This will automatically run the `grunt build` command.
+
+  
+  
 ## Step 7: Start PokemonGo-Map
 
 Now we are ready to start the map.
@@ -94,3 +104,5 @@ Since PokemonGo-Map is under active development and gets a lot of updates, you p
 `git pull origin master`
 
 Now repeat Step 7 to restart your map.
+
+
