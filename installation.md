@@ -62,10 +62,63 @@ curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
 sudo python ./get-pip.py
 sudo -H easy_install --upgrade six
 sudo -H easy_install --upgrade setuptools
-sudo -H pip install -r requirements.txt
 ```
 
 To install node and npm, download and install the installer from https://nodejs.org/en/download/.
+
+
+
+### Windows
+
+Download Python [here](https://www.python.org/ftp/python/2.7.12/python-2.7.12.amd64.msi) and install. Then download [pip](https://bootstrap.pypa.io/get-pip.py) (right click that link and choose "Save Link As"), and double click the file you downloaded, assuming you installed Python correctly.
+
+Download NodeJS [here](https://nodejs.org/en/download/) and install.
+
+There is a one-click setup for Windows. After you've installed Python, go into the `Easy Setup` folder and run `setup.bat`. This should install `pip` and the dependencies for you, and put your Google API key into the right place.
+
+## Credentials and Downloading
+
+Create a Pokemon Club account [on their official website] to be used by the program to search for Pokemon. This generally shouldn't be the same as your main Trainer account you personally use. As of 7/21/2016 this page is unavailable most of the time, refresh the page every 5-10 minutes and it should allow signups eventually.
+You can also use a Google account. For both services, you can login without ever connecting to the actual game. 
+
+Then, download one of the following branches below:
+
+- [Download master](https://github.com/AHAAAAAAA/PokemonGo-Map/archive/master.zip) (Stable builds)
+- [Download dev branch](https://github.com/AHAAAAAAA/PokemonGo-Map/archive/develop.zip) (Active development)
+
+The dev branch will have latest features from the development team, however it may be unstable at some times.
+
+Extract this zip file to any location.
+
+
+## Installing required python and nodejs modules 
+
+At this point you should have the following:
+
+* Python 2.7 installed
+* pip installed
+* Unpacked archive of PokemonGo-Map
+* [nodejs](https://nodejs.org/en/download/) installed
+
+Open up your shell and change to the directory of PokemonGo-Map then run the following commands:
+
+Linux: 
+
+```bash
+sudo -H pip install -r requirements.txt
+sudo npm install -g grunt
+npm install
+npm run-script build
+```
+
+Windows:
+
+```bash
+pip install -r requirements.txt
+npm install -g grunt
+npm install
+npm run-script build
+```
 
 Result:
 
@@ -111,46 +164,7 @@ optional arguments:
   -t NUM_THREADS, --threads NUM_THREADS
                         Number of search threads
 ```
-(Test on OS X El Capitan)
 
-### Windows
-
-Download Python [here](https://www.python.org/ftp/python/2.7.12/python-2.7.12.amd64.msi) and install. Then download [pip](https://bootstrap.pypa.io/get-pip.py) (right click that link and choose "Save Link As"), and double click the file you downloaded, assuming you installed Python correctly.
-
-Download NodeJS [here](https://nodejs.org/en/download/) and install.
-
-There is a one-click setup for Windows. After you've installed Python, go into the `Easy Setup` folder and run `setup.bat`. This should install `pip` and the dependencies for you, and put your Google API key into the right place.
-
-## Credentials and Downloading
-
-Create a Pokemon Club account [on their official website] to be used by the program to search for Pokemon. This generally shouldn't be the same as your main Trainer account you personally use. As of 7/21/2016 this page is unavailable most of the time, refresh the page every 5-10 minutes and it should allow signups eventually.
-You can also use a Google account. For both services, you can login without ever connecting to the actual game. 
-
-Then, download one of the following branches below:
-
-- [Download master](https://github.com/AHAAAAAAA/PokemonGo-Map/archive/master.zip) (Stable builds)
-- [Download dev branch](https://github.com/AHAAAAAAA/PokemonGo-Map/archive/develop.zip) (Active development)
-
-The dev branch will have latest features from the development team, however it may be unstable at some times.
-
-Extract this zip file to any location.
-
-## Install Dependencies
-
-Now, open a Terminal/Command Line (`Win`+`R` and `cmd` on Windows) and `cd` to the folder you extracted the zip file to.
-
-```
-cd some/directory/
-```
-
-In Windows you can also right click within the folder and select "Open Command Window Here."
-
-Then enter the following:
-
-```
-pip install -r requirements.txt
-npm install
-```
 ## Google Maps API key
 
 You will need to generate your own Google Maps API key and place it in your program directory to use this program. Here's a [wiki entry](GoogleMaps.md) on how to do this part.
