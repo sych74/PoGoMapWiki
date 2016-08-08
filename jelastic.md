@@ -8,6 +8,8 @@ Click on the button above to quickly deploy **PokemonGo Map** into Jelastic Clou
 
 ## Deployment Guide
 
+> **Warning: Using this software is against the ToS of the game. You can get banned, use this tool at your own risk.**
+
 **Step 1.** After clicking the Deploy to Jelastic button, you’ll be shown a separate page with the following installation widget:
  
 ![image](https://github.com/sych74/PokemonGo-Map-in-Cloud/raw/master/images/wiki/signup.png)
